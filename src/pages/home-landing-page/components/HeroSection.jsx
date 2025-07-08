@@ -159,7 +159,7 @@ const HeroSection = () => {
               {/* Profile Image Container */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/30 shadow-neo-primary">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                  src="/assets/images/profile_pic.jpeg"
                   alt="Lucas - Frontend Developer"
                   className="w-full h-full object-cover"
                 />
