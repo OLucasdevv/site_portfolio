@@ -1,0 +1,32 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello, I'm",
+        "name": "Lucas",
+        "roles": [
+            "Frontend Developer",
+            "Programming Student",
+            "Cybersecurity Enthusiast",
+            "Problem Solver"
+        ],
+        "motto": "Coding with purpose, learning with passion",
+        "description": "Passionate programming student with a deep interest in cybersecurity and modern web development. Currently building innovative projects while exploring the intersection of security and user experience.",
+        "viewWork": "View My Work",
+        "downloadResume": "Download Resume",
+        "exploreMore": "Explore More"
+    },
+    "language": {
+        "english": "English",
+        "portuguese": "Portuguese",
+        "switchTo": "Switch to"
+    },
+    "footer": {
+        "ready": "Ready to build something amazing?",
+        "getInTouch": "Get In Touch"
+    }
+}
