@@ -111,8 +111,8 @@ const HeroSection = () => {
                 onClick={() => {
                   // Mock resume download
                   const link = document.createElement('a');
-                  link.href = '/assets/resume/lucas-resume.pdf';
-                  link.download = 'Lucas_Resume.pdf';
+                  link.href = '/assets/images/resume/curriculo-(ingles).pdf';
+                  link.download = 'curriculo-(ingles).pdf';
                   link.click();
                 }}
                 className="w-full sm:w-auto px-8 py-4 text-lg font-medium border-primary/30 hover:bg-primary/10 hover:border-primary"
@@ -124,7 +124,7 @@ const HeroSection = () => {
             {/* Social Links */}
             <div className="flex items-center justify-center lg:justify-start space-x-6 pt-4">
               <a 
-                href="https://github.com/lucas-dev" 
+                href="https://github.com/OLucasdevv" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-surface border border-border rounded-neo hover:bg-primary/10 hover:border-primary/30 hover:shadow-glow-primary transition-all duration-micro group"
@@ -132,7 +132,7 @@ const HeroSection = () => {
                 <Icon name="Github" size={24} className="text-text-secondary group-hover:text-primary" />
               </a>
               <a 
-                href="https://linkedin.com/in/lucas-dev" 
+                href="https://www.linkedin.com/in/lucas-eduardo-23b7a8350/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-surface border border-border rounded-neo hover:bg-primary/10 hover:border-primary/30 hover:shadow-glow-primary transition-all duration-micro group"
@@ -140,7 +140,7 @@ const HeroSection = () => {
                 <Icon name="Linkedin" size={24} className="text-text-secondary group-hover:text-primary" />
               </a>
               <a 
-                href="mailto:lucas@example.com"
+                href="mailto:lucastiusammm@gmail.com"
                 className="p-3 bg-surface border border-border rounded-neo hover:bg-primary/10 hover:border-primary/30 hover:shadow-glow-primary transition-all duration-micro group"
               >
                 <Icon name="Mail" size={24} className="text-text-secondary group-hover:text-primary" />
@@ -160,7 +160,7 @@ const HeroSection = () => {
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/30 shadow-neo-primary">
                 <Image
                   src="/assets/images/profile_pic.jpeg"
-                  alt="Lucas - Frontend Developer"
+                  alt="Lucas - Web Developer"
                   className="w-full h-full object-cover"
                 />
                 
