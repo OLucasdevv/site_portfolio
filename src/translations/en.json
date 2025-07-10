@@ -59,6 +59,7 @@
         "technologies": "Technologies learned"
     },
     "cybersecurity": {
+        "name": "cybersecurity",
         "networkSecurity": "networkSecurity",
         "penetrationTesting": "penetrationTesting",
         "vulnerabilityAssessment": "vulnerabilityAssessment",

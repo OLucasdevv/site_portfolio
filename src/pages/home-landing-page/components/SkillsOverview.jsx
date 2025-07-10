@@ -43,7 +43,7 @@ const SkillsOverview = () => {
 
   const stats = [
     { label: t("stats.projects"), value: 2, icon: "Code", suffix: "+" },
-    { label: t("stats.commit"), value: 500, icon: "GitCommit", suffix: "+" },
+    { label: t("stats.commits"), value: 500, icon: "GitCommit", suffix: "+" },
     { label: t("stats.learning"), value: 1200, icon: "Clock", suffix: "+" },
     { label: t("stats.technologies"), value: 10, icon: "Layers", suffix: "+" }
   ];

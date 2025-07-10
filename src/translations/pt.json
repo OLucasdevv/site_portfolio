@@ -29,7 +29,7 @@
     "projects": {
         "title": "Projetos em Destaque",
         "subtitle": "Explore meus trabalhos mais recentes com foco em desenvolvimento web moderno, soluções de cibersegurança e abordagens criativas para resolver problemas.",
-        "viewAll": "Ver Todos os Projetos "
+        "viewAll": "Ver Todos os Projetos"
     },
     "statuses": {
     "Completed": "Concluído",
@@ -59,6 +59,7 @@
         "technologies": "Tecnologias Aprendidas"
     },
     "cybersecurity": {
+        "name": "cibersegurança",
         "networkSecurity": "Segurança de Rede",
         "penetrationTesting": "Teste de Penetração",
         "vulnerabilityAssessment": "Avaliação de Vulnerabilidades",
@@ -95,10 +96,11 @@
         },
         "messageButton": {
             "send": "Mandar Mensagem",
-            "submitting": "Mandando..."
-        },
-        "detailedMassage": "Para consultas detalhadas, visite minha",
-        "fullContactPage": "página de contato completa"
+            "submitting": "Mandando...",
+            "detailedMassage": "Para consultas detalhadas, visite minha",
+            "fullContactPage": "página de contato completa"
+        }
+        
 
     }
 }
