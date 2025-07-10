@@ -51,5 +51,55 @@
     "footer": {
         "ready": "Ready to build something amazing?",
         "getInTouch": "Get In Touch"
+    },
+    "stats": {
+        "projects": "Projects Completed",
+        "commits": "GitHub Commits",
+        "learning": "Learning Hours",
+        "technologies": "Technologies learned"
+    },
+    "cybersecurity": {
+        "networkSecurity": "networkSecurity",
+        "penetrationTesting": "penetrationTesting",
+        "vulnerabilityAssessment": "vulnerabilityAssessment",
+        "securityProtocols": "securityProtocols",
+        "javascript": "JavaScript"
+    },
+    "frontEndDev": {
+        "title": "Frontend Development"
+    },
+    "contactPreview": {
+        "title": "Let's Connect",
+        "subtitle": "Ready to collaborate on your next project? I'm always excited to discuss new opportunities and innovative solutions.",
+        "getInTouch": {
+            "title": "Get In Touch",
+            "subtitle": "If you have a project in mind, liked my work, want to discuss collaboration opportunities, or just want to say hello, I'd love to hear from you. 😉",
+            "response": "Response Time",
+            "responseSubtitle": "I typically respond to messages within 24 hours. For urgent inquiries, feel free to reach out via LinkedIn for faster response."
+        }
+    },
+    "sendMessage": {
+        "title": "Send a Message",
+        "subtitle": "Message sent successfully! I'll get back to you soon.",
+        "name": {
+            "title": "Your Name",
+            "subtitle": "Enter Your full Name"
+        },
+        "email": {
+            "title": "Email Address",
+            "subtitle": "your.email@gmail.com"
+        },
+        "message": {
+            "title": "Message",
+            "subtitle": "Tell me about your project or inquiry..."
+        },
+        "messageButton": {
+            "send": "Send Message",
+            "submitting": "Sending..."
+        },
+        "detailedMassage": "For detailed inquiries, visit my ",
+        "fullContactPage": "full contact page"
+
     }
+    
 }

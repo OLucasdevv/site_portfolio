@@ -36,7 +36,7 @@
     "In Progress": "Em Progresso"
 },
 "skill": {
-        "title": "Habilidades e experiência",
+        "title": "Habilidades e experiências",
         "subtitle":"Expandindo continuamente meu conhecimento técnico em desenvolvimento Web, sistemas back-end e domínios de segurança cibernética.",
         "continuous": {
             "title":"Aprendizagem Continua",
@@ -51,5 +51,54 @@
     "footer": {
         "ready": "Pronto para construir algo incr\u00edvel?",
         "getInTouch": "Entre em Contato"
+    },
+    "stats": {
+        "projects": "Projetos Concluídos",
+        "commits": "Commits no Github",
+        "learning": "Horas de Aprendizagem",
+        "technologies": "Tecnologias Aprendidas"
+    },
+    "cybersecurity": {
+        "networkSecurity": "Segurança de Rede",
+        "penetrationTesting": "Teste de Penetração",
+        "vulnerabilityAssessment": "Avaliação de Vulnerabilidades",
+        "securityProtocols": "Protocolos de Segurança",
+        "javascript": "JavaScript"
+    },
+    "frontEndDev": {
+        "title": "Desenvolvimento FrontEnd"
+    },
+    "contactPreview": {
+        "title": "Bora se Conectar?",
+        "subtitle": "Pronto para colaborar no seu próximo projeto? Estou sempre animado para discutir novas oportunidades e soluções inovadoras.",
+        "getInTouch": {
+            "title": "Entre em Contato",
+            "subtitle": "Se você tem um projeto em mente, gostou do meu trabalho, quer discutir oportunidades de colaboração ou apenas quer dizer olá, adoraria trocar um papo com você. 😉",
+            "response": "Tempo de Resposta",
+            "responseSubtitle": "Normalmente respondo às mensagens em até 24 horas. Para dúvidas urgentes, sinta-se à vontade para entrar em contato pelo LinkedIn para uma resposta mais rápida."
+        }
+    },
+    "sendMessage": {
+        "title": "Mande uma mensagem",
+        "subtitle": "Mensagem enviada com sucesso! Entrarei em contato com você em breve.",
+        "name": {
+            "title": "Seu Nome",
+            "subtitle": "Digite seu Nome Completo"
+        },
+        "email": {
+            "title": "Endereço de email",
+            "subtitle": "seu.email@gmail.com"
+        },
+        "message": {
+            "title": "Mensagem",
+            "subtitle": "Conte-me sobre seu projeto ou consulta..."
+        },
+        "messageButton": {
+            "send": "Mandar Mensagem",
+            "submitting": "Mandando..."
+        },
+        "detailedMassage": "Para consultas detalhadas, visite minha",
+        "fullContactPage": "página de contato completa"
+
     }
 }

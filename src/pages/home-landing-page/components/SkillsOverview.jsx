@@ -10,7 +10,7 @@ const SkillsOverview = () => {
 
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: t("frontEndDev.title"),
       icon: "Monitor",
       skills: [
         { name: "React", level: 85, color: "primary" },
@@ -33,19 +33,19 @@ const SkillsOverview = () => {
       title: "Cybersecurity",
       icon: "Shield",
       skills: [
-        { name: "Network Security", level: 70, color: "accent" },
-        { name: "Penetration Testing", level: 60, color: "primary" },
-        { name: "Vulnerability Assessment", level: 75, color: "secondary" },
-        { name: "Security Protocols", level: 65, color: "accent" }
+        { name: t("cybersecurity.networkSecurity"), level: 70, color: "accent" },
+        { name: t("cybersecurity.penetrationTesting"), level: 60, color: "primary" },
+        { name: t("cybersecurity.vulnerabilityAssessment"), level: 75, color: "secondary" },
+        { name: t("cybersecurity.securityProtocols"), level: 65, color: "accent" }
       ]
     }
   ];
 
   const stats = [
-    { label: "Projects Completed", value: 15, icon: "Code", suffix: "+" },
-    { label: "GitHub Commits", value: 500, icon: "GitCommit", suffix: "+" },
-    { label: "Learning Hours", value: 1200, icon: "Clock", suffix: "+" },
-    { label: "Technologies", value: 20, icon: "Layers", suffix: "+" }
+    { label: t("stats.projects"), value: 2, icon: "Code", suffix: "+" },
+    { label: t("stats.commit"), value: 500, icon: "GitCommit", suffix: "+" },
+    { label: t("stats.learning"), value: 1200, icon: "Clock", suffix: "+" },
+    { label: t("stats.technologies"), value: 10, icon: "Layers", suffix: "+" }
   ];
 
   useEffect(() => {
