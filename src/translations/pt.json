@@ -1,106 +1,118 @@
 {
-    "nav": {
-        "home": "In\u00edcio",
-        "about": "Sobre",
-        "projects": "Projetos",
-        "contact": "Contato"
-    },
-    "hero": {
-        "greeting": "Ol\u00e1, eu sou",
-        "name": "Lucas",
-        "roles": [
-            "Desenvolvedor Frontend",
-            "Estudante de Programa\u00e7\u00e3o",
-            "Entusiasta de Ciberseguran\u00e7a",
-            "Solucionador de Problemas"
-        ],
-        "motto": "Codificando com prop\u00f3sito, aprendendo com paix\u00e3o",
-        "description": "Estudante de programa\u00e7\u00e3o apaixonado com profundo interesse em ciberseguran\u00e7a e desenvolvimento web moderno. Atualmente construindo projetos inovadores enquanto exploro a interse\u00e7\u00e3o entre seguran\u00e7a e experi\u00eancia do usu\u00e1rio.",
-        "viewWork": "Ver Meu Trabalho",
-        "downloadResume": "Baixar Curr\u00edculo",
-        "exploreMore": "Explorar Mais"
-    },
-    "secureChat": {
-        "title": "Aplicativo secureChat",
-        "description": "Plataforma de mensagens com criptografia de ponta a ponta, desenvolvida com React e Node.js, com comunicação em tempo real e protocolos de segurança avançados.",
-        "category": "Full Stack",
-        "status": "Concluído"
-    },
-    "projects": {
-        "title": "Projetos em Destaque",
-        "subtitle": "Explore meus trabalhos mais recentes com foco em desenvolvimento web moderno, soluções de cibersegurança e abordagens criativas para resolver problemas.",
-        "viewAll": "Ver Todos os Projetos"
-    },
-    "statuses": {
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Lucas",
+    "roles": [
+      "Desenvolvedor Frontend",
+      "Estudante de Programação",
+      "Entusiasta de Cibersegurança",
+      "Solucionador de Problemas"
+    ],
+    "motto": "Codificando com propósito, aprendendo com paixão",
+    "description": "Estudante de programação apaixonado com profundo interesse em cibersegurança e desenvolvimento web moderno. Atualmente construindo projetos inovadores enquanto exploro a interseção entre segurança e experiência do usuário.",
+    "viewWork": "Ver Meu Trabalho",
+    "downloadResume": "Baixar Currículo",
+    "exploreMore": "Explorar Mais"
+  },
+  "secureChat": {
+    "title": "Aplicativo secureChat",
+    "description": "Plataforma de mensagens com criptografia de ponta a ponta, desenvolvida com React e Node.js, com comunicação em tempo real e protocolos de segurança avançados.",
+    "category": "Full Stack",
+    "status": "Concluído"
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "subtitle": "Explore meus trabalhos mais recentes com foco em desenvolvimento web moderno, soluções de cibersegurança e abordagens criativas para resolver problemas.",
+    "viewAll": "Ver Todos os Projetos"
+  },
+  "statuses": {
     "Completed": "Concluído",
     "In Progress": "Em Progresso"
-},
-"skill": {
-        "title": "Habilidades e experiências",
-        "subtitle":"Expandindo continuamente meu conhecimento técnico em desenvolvimento Web, sistemas back-end e domínios de segurança cibernética.",
-        "continuous": {
-            "title":"Aprendizagem Continua",
-            "subtitle": "Atualmente expandindo meu conhecimento em padrões avançados do React, segurança em nuvem e práticas modernas de DevOps. Estou sempre em busca de aprender novas tecnologias e metodologias."
-        }
-    },
-    "language": {
-        "english": "Ingl\u00eas",
-        "portuguese": "Portugu\u00eas",
-        "switchTo": "Mudar para"
-    },
-    "footer": {
-        "ready": "Pronto para construir algo incr\u00edvel?",
-        "getInTouch": "Entre em Contato"
-    },
-    "stats": {
-        "projects": "Projetos Concluídos",
-        "commits": "Commits no Github",
-        "learning": "Horas de Aprendizagem",
-        "technologies": "Tecnologias Aprendidas"
-    },
-    "cybersecurity": {
-        "name": "cibersegurança",
-        "networkSecurity": "Segurança de Rede",
-        "penetrationTesting": "Teste de Penetração",
-        "vulnerabilityAssessment": "Avaliação de Vulnerabilidades",
-        "securityProtocols": "Protocolos de Segurança",
-        "javascript": "JavaScript"
-    },
-    "frontEndDev": {
-        "title": "Desenvolvimento FrontEnd"
-    },
-    "contactPreview": {
-        "title": "Bora se Conectar?",
-        "subtitle": "Pronto para colaborar no seu próximo projeto? Estou sempre animado para discutir novas oportunidades e soluções inovadoras.",
-        "getInTouch": {
-            "title": "Entre em Contato",
-            "subtitle": "Se você tem um projeto em mente, gostou do meu trabalho, quer discutir oportunidades de colaboração ou apenas quer dizer olá, adoraria trocar um papo com você. 😉",
-            "response": "Tempo de Resposta",
-            "responseSubtitle": "Normalmente respondo às mensagens em até 24 horas. Para dúvidas urgentes, sinta-se à vontade para entrar em contato pelo LinkedIn para uma resposta mais rápida."
-        }
-    },
-    "sendMessage": {
-        "title": "Mande uma mensagem",
-        "subtitle": "Mensagem enviada com sucesso! Entrarei em contato com você em breve.",
-        "name": {
-            "title": "Seu Nome",
-            "subtitle": "Digite seu Nome Completo"
-        },
-        "email": {
-            "title": "Endereço de email",
-            "subtitle": "seu.email@gmail.com"
-        },
-        "message": {
-            "title": "Mensagem",
-            "subtitle": "Conte-me sobre seu projeto ou consulta..."
-        },
-        "messageButton": {
-            "send": "Mandar Mensagem",
-            "submitting": "Mandando...",
-            "detailedMessage": "Para consultas detalhadas, visite minha",
-            "fullContactPage": "página de contato completa"
-        }
-        
-
+  },
+  "skill": {
+    "title": "Habilidades e experiências",
+    "subtitle": "Expandindo continuamente meu conhecimento técnico em desenvolvimento Web, sistemas back-end e domínios de segurança cibernética.",
+    "continuous": {
+      "title": "Aprendizagem Continua",
+      "subtitle": "Atualmente expandindo meu conhecimento em padrões avançados do React, segurança em nuvem e práticas modernas de DevOps. Estou sempre em busca de aprender novas tecnologias e metodologias."
     }
+  },
+  "education": {
+    "title": "Educação e Jornada de Aprendizado",
+    "subtitle": "Minha formação acadêmica e caminho de aprendizado contínuo em tecnologia",
+    "currentFocus": "Foco Atual de Aprendizado",
+    "highlights": "Principais Áreas de Conhecimento",
+    "status": {
+      "Completed": "Concluído",
+      "In Progress": "Em Progresso"
+    }
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Um pouco mais sobre minha formação, valores pessoais e habilidades"
+  },
+  "language": {
+    "english": "Inglês",
+    "portuguese": "Português",
+    "switchTo": "Mudar para"
+  },
+  "footer": {
+    "ready": "Pronto para construir algo incrível?",
+    "getInTouch": "Entre em Contato"
+  },
+  "stats": {
+    "projects": "Projetos Concluídos",
+    "commits": "Commits no Github",
+    "learning": "Horas de Aprendizagem",
+    "technologies": "Tecnologias Aprendidas"
+  },
+  "cybersecurity": {
+    "name": "cibersegurança",
+    "networkSecurity": "Segurança de Rede",
+    "penetrationTesting": "Teste de Penetração",
+    "vulnerabilityAssessment": "Avaliação de Vulnerabilidades",
+    "securityProtocols": "Protocolos de Segurança",
+    "javascript": "JavaScript"
+  },
+  "frontEndDev": {
+    "title": "Desenvolvimento FrontEnd"
+  },
+  "contactPreview": {
+    "title": "Bora se Conectar?",
+    "subtitle": "Pronto para colaborar no seu próximo projeto? Estou sempre animado para discutir novas oportunidades e soluções inovadoras.",
+    "getInTouch": {
+      "title": "Entre em Contato",
+      "subtitle": "Se você tem um projeto em mente, gostou do meu trabalho, quer discutir oportunidades de colaboração ou apenas quer dizer olá, adoraria trocar um papo com você. 😉",
+      "response": "Tempo de Resposta",
+      "responseSubtitle": "Normalmente respondo às mensagens em até 24 horas. Para dúvidas urgentes, sinta-se à vontade para entrar em contato pelo LinkedIn para uma resposta mais rápida."
+    }
+  },
+  "sendMessage": {
+    "title": "Mande uma mensagem",
+    "subtitle": "Mensagem enviada com sucesso! Entrarei em contato com você em breve.",
+    "name": {
+      "title": "Seu Nome",
+      "subtitle": "Digite seu Nome Completo"
+    },
+    "email": {
+      "title": "Endereço de email",
+      "subtitle": "seu.email@gmail.com"
+    },
+    "message": {
+      "title": "Mensagem",
+      "subtitle": "Conte-me sobre seu projeto ou consulta..."
+    },
+    "messageButton": {
+      "send": "Mandar Mensagem",
+      "submitting": "Mandando...",
+      "detailedMessage": "Para consultas detalhadas, visite minha",
+      "fullContactPage": "página de contato completa"
+    }
+  }
 }
