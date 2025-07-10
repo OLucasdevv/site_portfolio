@@ -1,118 +1,107 @@
 {
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "projects": "Projects",
-    "contact": "Contact"
-  },
-  "hero": {
-    "greeting": "Hello, I'm",
-    "name": "Lucas",
-    "roles": [
-      "Frontend Developer",
-      "Programming Student",
-      "Cybersecurity Enthusiast",
-      "Problem Solver"
-    ],
-    "motto": "It is not because things are difficult that we do not dare, it is because we do not dare that they are difficult. - Seneca",
-    "description": "Passionate programming student with a deep interest in cybersecurity and modern web development. Currently building innovative projects while exploring the intersection of security and user experience.",
-    "viewWork": "View My Work",
-    "downloadResume": "Download Resume",
-    "exploreMore": "Explore More"
-  },
-  "secureChat": {
-    "title": "SecureChat Application",
-    "description": "End-to-end encrypted messaging platform built with React and Node.js, featuring real-time communication and advanced security protocols.",
-    "category": "Full Stack",
-    "status": "Completed"
-  },
-  "projects": {
-    "title": "Featured Projects",
-    "subtitle": "Explore my latest work showcasing modern web development, cybersecurity solutions, and innovative problem-solving approaches.",
-    "viewAll": "View All Projects"
-  },
-  "statuses": {
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello, I'm",
+        "name": "Lucas",
+        "roles": [
+            "Web Developer",
+            "Programming Student",
+            "Cybersecurity Enthusiast",
+            "Problem Solver"
+        ],
+        "motto": "Coding with purpose, learning with passion",
+        "description": "Passionate programming student with a deep interest in cybersecurity and modern web development. Currently building innovative projects while exploring the intersection of security and user experience.",
+        "viewWork": "View My Work",
+        "downloadResume": "Download Resume",
+        "exploreMore": "Explore More"
+    },
+    "secureChat": {
+        "title": "SecureChat Aplication",
+        "description": "End-to-end encrypted messaging platform built with React and Node.js, featuring real-time communication and advanced security protocols.",
+        "category": "Full Stack",
+        "status": "Completed"
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "subtitle": "Explore my latest work showcasing modern web development, cybersecurity solutions, and innovative problem-solving approaches.",
+        "viewAll": "View All Projects"
+},
+    "language": {
+        "english": "English",
+        "portuguese": "Portuguese",
+        "switchTo": "Switch to"
+    },
+    "skill": {
+        "title": "Skills & Expertise",
+        "subtitle":"Continuously expanding my technical knowledge across web development, backend systems, and cybersecurity domains.",
+        "continuous": {
+            "title":"Continuous Learning",
+            "subtitle": "Currently expanding my knowledge in advanced React patterns, cloud security, and modern DevOps practices. Always eager to learn new technologies and methodologies."
+        }
+    },
+    "statuses": {
     "Completed": "Completed",
     "In Progress": "In Progress"
-  },
-  "skill": {
-    "title": "Skills & Expertise",
-    "subtitle": "Continuously expanding my technical knowledge across web development, backend systems, and cybersecurity domains.",
-    "continuous": {
-      "title": "Continuous Learning",
-      "subtitle": "Currently expanding my knowledge in advanced React patterns, cloud security, and modern DevOps practices. Always eager to learn new technologies and methodologies."
-    }
-  },
-  "education": {
-    "title": "Education & Learning Journey",
-    "subtitle": "My academic background and continuous learning path in technology",
-    "currentFocus": "Current Learning Focus",
-    "highlights": "Key Learning Areas",
-    "status": {
-      "Completed": "Completed",
-      "In Progress": "In Progress"
-    }
-  },
-  "about": {
-    "title": "About Me",
-    "subtitle": "A bit more about my background, personal values, and skills"
-  },
-  "language": {
-    "english": "English",
-    "portuguese": "Portuguese",
-    "switchTo": "Switch to"
-  },
-  "footer": {
-    "ready": "Ready to build something amazing?",
-    "getInTouch": "Get In Touch"
-  },
-  "stats": {
-    "projects": "Projects Completed",
-    "commits": "GitHub Commits",
-    "learning": "Learning Hours",
-    "technologies": "Technologies Learned"
-  },
-  "cybersecurity": {
-    "name": "cybersecurity",
-    "networkSecurity": "Network Security",
-    "penetrationTesting": "Penetration Testing",
-    "vulnerabilityAssessment": "Vulnerability Assessment",
-    "securityProtocols": "Security Protocols",
-    "javascript": "JavaScript"
-  },
-  "frontEndDev": {
-    "title": "Frontend Development"
-  },
-  "contactPreview": {
-    "title": "Let's Connect",
-    "subtitle": "Ready to collaborate on your next project? I'm always excited to discuss new opportunities and innovative solutions.",
-    "getInTouch": {
-      "title": "Get In Touch",
-      "subtitle": "If you have a project in mind, liked my work, want to discuss collaboration opportunities, or just want to say hello, I'd love to hear from you. 😉",
-      "response": "Response Time",
-      "responseSubtitle": "I typically respond to messages within 24 hours. For urgent inquiries, feel free to reach out via LinkedIn for faster response."
-    }
-  },
-  "sendMessage": {
-    "title": "Send a Message",
-    "subtitle": "Message sent successfully! I'll get back to you soon.",
-    "name": {
-      "title": "Your Name",
-      "subtitle": "Enter Your Full Name"
+},
+    "footer": {
+        "ready": "Ready to build something amazing?",
+        "getInTouch": "Get In Touch"
     },
-    "email": {
-      "title": "Email Address",
-      "subtitle": "your.email@gmail.com"
+    "stats": {
+        "projects": "Projects Completed",
+        "commits": "GitHub Commits",
+        "learning": "Learning Hours",
+        "technologies": "Technologies learned"
     },
-    "message": {
-      "title": "Message",
-      "subtitle": "Tell me about your project or inquiry..."
+    "cybersecurity": {
+        "name": "cybersecurity",
+        "networkSecurity": "networkSecurity",
+        "penetrationTesting": "penetrationTesting",
+        "vulnerabilityAssessment": "vulnerabilityAssessment",
+        "securityProtocols": "securityProtocols",
+        "javascript": "JavaScript"
     },
-    "messageButton": {
-      "send": "Send Message",
-      "submitting": "Sending...",
-      "detailedMessage": "For detailed inquiries, visit my",
-      "fullContactPage": "full contact page"
+    "frontEndDev": {
+        "title": "Frontend Development"
+    },
+    "contactPreview": {
+        "title": "Let's Connect",
+        "subtitle": "Ready to collaborate on your next project? I'm always excited to discuss new opportunities and innovative solutions.",
+        "getInTouch": {
+            "title": "Get In Touch",
+            "subtitle": "If you have a project in mind, liked my work, want to discuss collaboration opportunities, or just want to say hello, I'd love to hear from you. 😉",
+            "response": "Response Time",
+            "responseSubtitle": "I typically respond to messages within 24 hours. For urgent inquiries, feel free to reach out via LinkedIn for faster response."
+        }
+    },
+    "sendMessage": {
+        "title": "Send a Message",
+        "subtitle": "Message sent successfully! I'll get back to you soon.",
+        "name": {
+            "title": "Your Name",
+            "subtitle": "Enter Your full Name"
+        },
+        "email": {
+            "title": "Email Address",
+            "subtitle": "your.email@gmail.com"
+        },
+        "message": {
+            "title": "Message",
+            "subtitle": "Tell me about your project or inquiry..."
+        },
+        "messageButton": {
+            "send": "Send Message",
+            "submitting": "Sending...",
+            "detailedMessage": "For detailed inquiries, visit my ",
+            "fullContactPage": "full contact page"
+        }
+        
+
     }
-  }
+    
 }
