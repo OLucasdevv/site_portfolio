@@ -9,7 +9,7 @@
         "greeting": "Hello, I'm",
         "name": "Lucas",
         "roles": [
-            "Frontend Developer",
+            "Web Developer",
             "Programming Student",
             "Cybersecurity Enthusiast",
             "Problem Solver"
@@ -20,11 +20,26 @@
         "downloadResume": "Download Resume",
         "exploreMore": "Explore More"
     },
+    "secureChat": {
+        "title": "SecureChat Aplication",
+        "description": "End-to-end encrypted messaging platform built with React and Node.js, featuring real-time communication and advanced security protocols.",
+        "category": "Full Stack",
+        "status": "Completed"
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "subtitle": "Explore my latest work showcasing modern web development, cybersecurity solutions, and innovative problem-solving approaches.",
+        "viewAll": "View All Projects"
+},
     "language": {
         "english": "English",
         "portuguese": "Portuguese",
         "switchTo": "Switch to"
     },
+    "statuses": {
+    "Completed": "Completed",
+    "In Progress": "In Progress"
+},
     "footer": {
         "ready": "Ready to build something amazing?",
         "getInTouch": "Get In Touch"

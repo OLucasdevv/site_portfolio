@@ -20,6 +20,21 @@
         "downloadResume": "Baixar Curr\u00edculo",
         "exploreMore": "Explorar Mais"
     },
+    "secureChat": {
+        "title": "Aplicativo secureChat",
+        "description": "Plataforma de mensagens com criptografia de ponta a ponta, desenvolvida com React e Node.js, com comunicação em tempo real e protocolos de segurança avançados.",
+        "category": "Full Stack",
+        "status": "Concluído"
+    },
+    "projects": {
+        "title": "Projetos em Destaque",
+        "subtitle": "Explore meus trabalhos mais recentes com foco em desenvolvimento web moderno, soluções de cibersegurança e abordagens criativas para resolver problemas.",
+        "viewAll": "Ver Todos os Projetos "
+    },
+    "statuses": {
+    "Completed": "Concluído",
+    "In Progress": "Em Progresso"
+},
     "language": {
         "english": "Ingl\u00eas",
         "portuguese": "Portugu\u00eas",

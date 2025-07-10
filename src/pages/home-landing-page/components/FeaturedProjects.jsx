@@ -3,23 +3,26 @@ import { Link } from 'react-router-dom';
 import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
+import { useLanguage } from '../../../contexts/LanguageContext';
+
 
 const FeaturedProjects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
+  const { t } = useLanguage();
 
   const featuredProjects = [
     {
       id: 1,
-      title: "SecureChat Application",
-      description: "End-to-end encrypted messaging platform built with React and Node.js, featuring real-time communication and advanced security protocols.",
+      title: t("secureChat.title"),
+      description: t("secureChat.description"),
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
       technologies: ["React", "Node.js", "Socket.io", "Encryption"],
-      category: "Full Stack",
+      category: t("secureChat.category"),
       githubUrl: "https://github.com/lucas-dev/secure-chat",
       liveUrl: "https://secure-chat-demo.netlify.app",
       featured: true,
-      status: "Completed"
+      status: t("secureChat.status")
     },
     {
       id: 2,
@@ -86,12 +89,11 @@ const FeaturedProjects = () => {
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Icon name="Code" size={28} className="text-primary" />
             <h2 className="font-heading font-bold text-4xl lg:text-5xl text-text-primary">
-              Featured Projects
+              {t("projects.title")}
             </h2>
           </div>
           <p className="font-body text-lg text-text-secondary max-w-3xl mx-auto leading-relaxed">
-            Explore my latest work showcasing modern web development, cybersecurity solutions, 
-            and innovative problem-solving approaches.
+            {t("projects.subtitle")}
           </p>
         </div>
 
@@ -120,7 +122,7 @@ const FeaturedProjects = () => {
                 
                 {/* Status Badge */}
                 <div className={`absolute top-4 right-4 px-3 py-1 rounded-neo border font-caption text-xs font-medium ${getStatusColor(project.status)}`}>
-                  {project.status}
+                  {t(`statuses.${project.status}`)}
                 </div>
 
                 {/* Quick Actions */}
