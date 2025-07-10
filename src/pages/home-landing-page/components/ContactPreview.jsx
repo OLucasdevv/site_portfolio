@@ -217,7 +217,7 @@ const ContactPreview = () => {
                 iconPosition="right"
                 className="w-full py-3 font-semibold"
               >
-                {isSubmitting ? t("messageButton.submitting") : t("messageButton.send")}
+                {isSubmitting ? t("sendMessage.messageButton.submitting") : t("sendMessage.messageButton.send")}
               </Button>
             </form>
 
