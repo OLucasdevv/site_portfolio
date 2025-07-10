@@ -9,11 +9,13 @@ import PersonalIntroduction from './components/PersonalIntroduction';
 import SkillsShowcase from './components/SkillsShowcase';
 import EducationTimeline from './components/EducationTimeline';
 import PersonalValues from './components/PersonalValues';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 const AboutMe = () => {
   const [currentLanguage, setCurrentLanguage] = useState('en');
   const [isLoading, setIsLoading] = useState(true);
   const [activeSection, setActiveSection] = useState('introduction');
+  const {t} = useLanguage();
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
@@ -95,10 +97,10 @@ const AboutMe = () => {
   return (
     <>
       <Helmet>
-        <title>About Me - Lucas Rodriguez | Front-End Developer & Cybersecurity Enthusiast</title>
+        <title>About Me - Lucas Eduardo | Web Developer & Cybersecurity Enthusiast</title>
         <meta name="description" content="Learn about Lucas Rodriguez, a passionate programming student specializing in front-end development and cybersecurity. Discover my journey, skills, and values." />
-        <meta name="keywords" content="Lucas Rodriguez, front-end developer, cybersecurity, React developer, programming student, web development, portfolio" />
-        <meta property="og:title" content="About Me - Lucas Rodriguez" />
+        <meta name="keywords" content="Lucas Eduardo,Web developer, cybersecurity, React developer, programming student, web development, portfolio" />
+        <meta property="og:title" content="About Me - Lucas Eduardo" />
         <meta property="og:description" content="Passionate programming student with expertise in React development and cybersecurity interests." />
         <meta property="og:type" content="profile" />
       </Helmet>
@@ -135,7 +137,7 @@ const AboutMe = () => {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   className="font-heading font-bold text-4xl lg:text-6xl text-text-primary"
                 >
-                  About <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Lucas</span>
+                  {t("indexAboutMe.about")} <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{t("indexAboutMe.lucas")}</span>
                 </motion.h1>
                 
                 <motion.p
@@ -242,9 +244,9 @@ const AboutMe = () => {
                     <div className="space-y-4">
                       {[
                         { label: "Years of Learning", value: "2+", icon: "Calendar" },
-                        { label: "Projects Completed", value: "15+", icon: "Code" },
-                        { label: "Technologies Learned", value: "20+", icon: "Layers" },
-                        { label: "Certifications", value: "3", icon: "Award" }
+                        { label: "Projects Completed", value: "2+", icon: "Code" },
+                        { label: "Technologies Learned", value: "10+", icon: "Layers" },
+                        { label: "Certifications", value: "0", icon: "Award" }
                       ].map((stat) => (
                         <div key={stat.label} className="flex items-center justify-between">
                           <div className="flex items-center space-x-2">

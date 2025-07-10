@@ -14,7 +14,7 @@
             "Cybersecurity Enthusiast",
             "Problem Solver"
         ],
-        "motto": "Coding with purpose, learning with passion",
+        "motto": "It is not because things are difficult that we do not dare, it is because we do not dare that they are difficult. - Seneca",
         "description": "Passionate programming student with a deep interest in cybersecurity and modern web development. Currently building innovative projects while exploring the intersection of security and user experience.",
         "viewWork": "View My Work",
         "downloadResume": "Download Resume",
@@ -99,6 +99,10 @@
             "submitting": "Sending...",
             "detailedMessage": "For detailed inquiries, visit my ",
             "fullContactPage": "full contact page"
+        },
+        "indexAboutMe": {
+            "about": "about",
+            "lucas": "lucas"
         }
         
 
