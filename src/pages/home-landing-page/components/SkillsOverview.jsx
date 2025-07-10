@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Icon from '../../../components/AppIcon';
 import { useLanguage } from '../../../contexts/LanguageContext';
 
-
 const SkillsOverview = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [animatedValues, setAnimatedValues] = useState({});
@@ -30,7 +29,7 @@ const SkillsOverview = () => {
       ]
     },
     {
-      title: "Cybersecurity",
+      title: t("cybersecurity.name"),
       icon: "Shield",
       skills: [
         { name: t("cybersecurity.networkSecurity"), level: 70, color: "accent" },
@@ -42,10 +41,10 @@ const SkillsOverview = () => {
   ];
 
   const stats = [
-    { label: t("stats.projects"), value: 2, icon: "Code", suffix: "+" },
-    { label: t("stats.commits"), value: 500, icon: "GitCommit", suffix: "+" },
-    { label: t("stats.learning"), value: 1200, icon: "Clock", suffix: "+" },
-    { label: t("stats.technologies"), value: 10, icon: "Layers", suffix: "+" }
+    { key: "projects", label: t("stats.projects"), value: 2, icon: "Code", suffix: "+" },
+    { key: "commits", label: t("stats.commits"), value: 500, icon: "GitCommit", suffix: "+" },
+    { key: "learning", label: t("stats.learning"), value: 1200, icon: "Clock", suffix: "+" },
+    { key: "technologies", label: t("stats.technologies"), value: 10, icon: "Layers", suffix: "+" }
   ];
 
   useEffect(() => {
@@ -79,7 +78,7 @@ const SkillsOverview = () => {
         }
         setAnimatedValues(prev => ({
           ...prev,
-          [stat.label]: Math.floor(current)
+          [stat.key]: Math.floor(current)
         }));
       }, 30);
     });
@@ -122,14 +121,14 @@ const SkillsOverview = () => {
         }`}>
           {stats.map((stat, index) => (
             <div
-              key={stat.label}
+              key={stat.key}
               className="bg-surface border border-border rounded-neo p-6 text-center hover:border-primary/30 hover:shadow-glow-primary transition-all duration-component hover-lift"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-neo flex items-center justify-center mx-auto mb-4">
                 <Icon name={stat.icon} size={24} className="text-primary" />
               </div>
               <div className="font-heading font-bold text-3xl text-text-primary mb-2">
-                {animatedValues[stat.label] || 0}{stat.suffix}
+                {animatedValues[stat.key] || 0}{stat.suffix}
               </div>
               <div className="font-caption text-sm text-text-secondary">
                 {stat.label}
@@ -170,8 +169,6 @@ const SkillsOverview = () => {
                         {skill.level}%
                       </span>
                     </div>
-                    
-                    {/* Progress Bar */}
                     <div className="w-full h-2 bg-background rounded-full overflow-hidden">
                       <div
                         className={`h-full ${getColorClass(skill.color)} rounded-full transition-all duration-1000 ease-out`}

@@ -97,7 +97,7 @@
         "messageButton": {
             "send": "Mandar Mensagem",
             "submitting": "Mandando...",
-            "detailedMassage": "Para consultas detalhadas, visite minha",
+            "detailedMessage": "Para consultas detalhadas, visite minha",
             "fullContactPage": "página de contato completa"
         }
         

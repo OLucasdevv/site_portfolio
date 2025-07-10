@@ -96,10 +96,11 @@
         },
         "messageButton": {
             "send": "Send Message",
-            "submitting": "Sending..."
-        },
-        "detailedMassage": "For detailed inquiries, visit my ",
-        "fullContactPage": "full contact page"
+            "submitting": "Sending...",
+            "detailedMessage": "For detailed inquiries, visit my ",
+            "fullContactPage": "full contact page"
+        }
+        
 
     }
     
