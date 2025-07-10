@@ -194,7 +194,7 @@ const FeaturedProjects = () => {
               iconPosition="right"
               className="px-8 py-4 text-lg font-medium border-primary/30 hover:bg-primary/10 hover:border-primary hover:shadow-glow-primary"
             >
-              View All Projects
+              {t("projects.viewAll")}
             </Button>
           </Link>
         </div>

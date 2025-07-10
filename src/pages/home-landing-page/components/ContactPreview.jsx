@@ -194,14 +194,14 @@ const ContactPreview = () => {
 
               <div>
                 <label htmlFor="message" className="block font-body font-medium text-text-primary mb-2">
-                  {t("message.title")}
+                  {t("sendMessage.message.title")}
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
-                  placeholder={t("message.subtitle")}
+                  placeholder={t("sendMessage.message.subtitle")}
                   required
                   rows={4}
                   className="w-full px-4 py-3 bg-background border border-border rounded-neo text-text-primary placeholder-text-secondary focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-micro resize-none"
