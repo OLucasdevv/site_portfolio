@@ -223,12 +223,12 @@ const ContactPreview = () => {
 
             <div className="mt-6 pt-6 border-t border-border">
               <p className="font-caption text-sm text-text-secondary text-center">
-                {t("messageButton.detailedMessage")}{' '}
+                {t("sendMessage.messageButton.detailedMessage")}{' '}
                 <Link 
                   to="/contact" 
                   className="text-primary hover:underline transition-colors duration-micro"
                 >
-                  {t("messageButton.fullContactPage")}
+                  {t("sendMessage.messageButton.fullContactPage")}
                 </Link>
               </p>
             </div>
