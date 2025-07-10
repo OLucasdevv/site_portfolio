@@ -36,6 +36,14 @@
         "portuguese": "Portuguese",
         "switchTo": "Switch to"
     },
+    "skill": {
+        "title": "Skills & Expertise",
+        "subtitle":"Continuously expanding my technical knowledge across web development, backend systems, and cybersecurity domains.",
+        "continuous": {
+            "title":"Continuous Learning",
+            "subtitle": "Currently expanding my knowledge in advanced React patterns, cloud security, and modern DevOps practices. Always eager to learn new technologies and methodologies."
+        }
+    },
     "statuses": {
     "Completed": "Completed",
     "In Progress": "In Progress"

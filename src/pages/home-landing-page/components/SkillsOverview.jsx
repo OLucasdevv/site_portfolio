@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Icon from '../../../components/AppIcon';
+import { useLanguage } from '../../../contexts/LanguageContext';
+
 
 const SkillsOverview = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [animatedValues, setAnimatedValues] = useState({});
+  const { t } = useLanguage();
 
   const skillCategories = [
     {
@@ -105,12 +108,11 @@ const SkillsOverview = () => {
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Icon name="Zap" size={28} className="text-primary" />
             <h2 className="font-heading font-bold text-4xl lg:text-5xl text-text-primary">
-              Skills & Expertise
+              {t("skill.title")}
             </h2>
           </div>
           <p className="font-body text-lg text-text-secondary max-w-3xl mx-auto leading-relaxed">
-            Continuously expanding my technical knowledge across frontend development, 
-            backend systems, and cybersecurity domains.
+            {t("skill.subtitle")}
           </p>
         </div>
 
@@ -193,11 +195,10 @@ const SkillsOverview = () => {
           <div className="bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 rounded-neo p-8">
             <Icon name="BookOpen" size={32} className="text-primary mx-auto mb-4" />
             <h3 className="font-heading font-bold text-2xl text-text-primary mb-2">
-              Continuous Learning
+              {t("skill.continuous.title")}
             </h3>
             <p className="font-body text-text-secondary mb-6 max-w-2xl mx-auto">
-              Currently expanding my knowledge in advanced React patterns, cloud security, 
-              and modern DevOps practices. Always eager to learn new technologies and methodologies.
+              {t("skill.continuous.subtitle")}
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               {["Next.js", "TypeScript", "AWS", "Docker", "GraphQL"].map((tech) => (

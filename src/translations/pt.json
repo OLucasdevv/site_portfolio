@@ -35,6 +35,14 @@
     "Completed": "Concluído",
     "In Progress": "Em Progresso"
 },
+"skill": {
+        "title": "Habilidades e experiência",
+        "subtitle":"Expandindo continuamente meu conhecimento técnico em desenvolvimento Web, sistemas back-end e domínios de segurança cibernética.",
+        "continuous": {
+            "title":"Aprendizagem Continua",
+            "subtitle": "Atualmente expandindo meu conhecimento em padrões avançados do React, segurança em nuvem e práticas modernas de DevOps. Estou sempre em busca de aprender novas tecnologias e metodologias."
+        }
+    },
     "language": {
         "english": "Ingl\u00eas",
         "portuguese": "Portugu\u00eas",
