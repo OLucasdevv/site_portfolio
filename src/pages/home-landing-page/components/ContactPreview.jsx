@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 import Input from '../../../components/ui/Input';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 const ContactPreview = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,7 @@ const ContactPreview = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+  const {t} = useLanguage();
 
   const contactMethods = [
     {
