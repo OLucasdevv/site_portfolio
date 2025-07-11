@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 const PersonalIntroduction = () => {
   const [isVisible, setIsVisible] = useState(false);

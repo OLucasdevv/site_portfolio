@@ -44,7 +44,7 @@ const HomeLandingPage = () => {
         <meta property="og:description" content="Passionate programming student with expertise in frontend development and cybersecurity. Coding with purpose, learning with passion." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://lucas-portfolio-hub.netlify.app" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop&crop=face" />
+        <meta property="og:image" content="/assets/images/profile_pic.jpeg" />
         
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
