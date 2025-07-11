@@ -99,12 +99,22 @@
             "submitting": "Mandando...",
             "detailedMessage": "Para consultas detalhadas, visite minha",
             "fullContactPage": "página de contato completa"
-        },
-        "indexAboutMe": {
+        }
+    },
+    "indexAboutMe": {
             "about": "Quem Sou",
             "lucas": "Eu"
+        },
+        "indexAboutMeSubtitle": {
+            "subtitle": "Descubra minha jornada de estudante curioso a desenvolvedor apaixonado, explorando a interseção entre criatividade, segurança e tecnologia de ponta.",
+            "getToKnow": "Permita-me apresentar"
+    },
+    "about": {
+        "nav": {
+            "introduction": "Introdução",
+            "skills": "Habilidades",
+            "education": "Educação",
+            "values": "Valores"
         }
-        
-
     }
 }

@@ -16,9 +16,9 @@ const PersonalIntroduction = () => {
 
   const personalInfo = {
     name: "Lucas Eduardo",
-    title: "Front-End Developer & Cybersecurity Enthusiast",
-    location: "Santa Maria, DF",
-    motto: "Coding with purpose, learning with passion",
+    title: t("personalIntro.title"),
+    location: "Brasilia, DF",
+    motto: t("hero.motto"),
     bio: `I'm a passionate programming student with a deep fascination for cybersecurity and modern web development. My journey into tech began with curiosity about how digital systems work, which evolved into a love for creating secure, user-friendly applications.\n\nCurrently pursuing my degree in Software Engineering, I spend my days mastering React, JavaScript, and exploring the intersection of development and security. I believe that great code isn't just functional—it's secure, accessible, and meaningful.\n\nWhen I'm not coding, you'll find me researching the latest cybersecurity trends or mentoring fellow students in programming fundamentals.`,
     profileImage: "/assets/images/profile_pic.jpeg",
     interests: [

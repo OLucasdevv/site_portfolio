@@ -15,7 +15,7 @@ const AboutMe = () => {
   const [currentLanguage, setCurrentLanguage] = useState('en');
   const [isLoading, setIsLoading] = useState(true);
   const [activeSection, setActiveSection] = useState('introduction');
-  const {t} = useLanguage();
+  const { t } = useLanguage();
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
@@ -51,11 +51,12 @@ const AboutMe = () => {
   }, []);
 
   const navigationSections = [
-    { id: 'introduction', label: 'Introduction', icon: 'User' },
-    { id: 'skills', label: 'Skills', icon: 'Code' },
-    { id: 'education', label: 'Education', icon: 'GraduationCap' },
-    { id: 'values', label: 'Values', icon: 'Heart' }
-  ];
+  { id: 'introduction', label: t('about.nav.introduction'), icon: 'User' },
+  { id: 'skills', label: t('about.nav.skills'), icon: 'Code' },
+  { id: 'education', label: t('about.nav.education'), icon: 'GraduationCap' },
+  { id: 'values', label: t('about.nav.values'), icon: 'Heart' }
+];
+
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -128,7 +129,7 @@ const AboutMe = () => {
                   className="inline-flex items-center space-x-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-neo text-primary font-caption text-sm"
                 >
                   <Icon name="Sparkles" size={16} />
-                  <span>Get to know me better</span>
+                  <span> {t("indexAboutMeSubtitle.subtitle")}  </span>
                 </motion.div>
                 
                 <motion.h1
@@ -146,8 +147,7 @@ const AboutMe = () => {
                   transition={{ duration: 0.6, delay: 0.4 }}
                   className="font-body text-lg lg:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed"
                 >
-                  Discover my journey from curious student to passionate developer, exploring the intersection 
-                  of creativity, security, and cutting-edge technology.
+                  {t("indexAboutMeSubtitle.subtitle")}
                 </motion.p>
               </div>
             </div>

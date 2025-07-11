@@ -99,13 +99,24 @@
             "submitting": "Sending...",
             "detailedMessage": "For detailed inquiries, visit my ",
             "fullContactPage": "full contact page"
-        },
-        "indexAboutMe": {
+        }
+    },
+    "indexAboutMe": {
             "about": "about",
             "lucas": "lucas"
+        },
+        "indexAboutMeSubtitle": {
+            "subtitle": "Discover my journey from curious student to passionate developer, exploring the intersection of creativity, security, and cutting-edge technology."
+    },
+    "about": {
+        "nav": {
+            "introduction": "Introduction",
+            "skills": "Skills",
+            "education": "Education",
+            "values": "Values"
         }
-        
-
+    },
+    "personalIntro": { 
+        "title": "Web Developer & Cybersecurity Enthusiast"
     }
-    
 }
