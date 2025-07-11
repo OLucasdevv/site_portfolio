@@ -16,18 +16,19 @@ const PersonalIntroduction = () => {
     setIsVisible(true);
   }, []);
 
+  
   const personalInfo = {
     name: "Lucas Eduardo",
-    title: t("personalIntro.title"),
+    title: t("aboutMe.role"),
     location: "Brasilia, DF",
     motto: t("hero.motto"),
-    bio: `I'm a passionate programming student with a deep fascination for cybersecurity and modern web development. My journey into tech began with curiosity about how digital systems work, which evolved into a love for creating secure, user-friendly applications.\n\nCurrently pursuing my degree in Software Engineering, I spend my days mastering React, JavaScript, and exploring the intersection of development and security. I believe that great code isn't just functional—it's secure, accessible, and meaningful.\n\nWhen I'm not coding, you'll find me researching the latest cybersecurity trends or mentoring fellow students in programming fundamentals.`,
+    bio: t("aboutMe.subtitle"),
     profileImage: "/assets/images/profile_pic.jpeg",
     interests: [
-      { name: "Web Security", icon: "Shield", description: "Exploring secure coding practices and vulnerability assessment" },
-      { name: "React Development", icon: "Code", description: "Building modern, responsive user interfaces" },
-      { name: "Open Source", icon: "GitBranch", description: "Contributing to community projects and learning from others" },
-      { name: "Continuous Learning", icon: "BookOpen", description: "Staying updated with latest tech trends and best practices" }
+      { name: t("interests.web.title"), icon: "Shield", description: t("interests.web.subtitle") },
+      { name: t("interests.reactDevelopment.title"), icon: "Code", description: t("interests.reactDevelopment.subtitle") },
+      { name: "Open Source", icon: "GitBranch", description: t("interests.openSource.subtitle") },
+      { name: t("interests.contLearning.title"), icon: "BookOpen", description: t("interests.contLearning.subtitle") }
     ]
   };
 
@@ -109,7 +110,7 @@ const PersonalIntroduction = () => {
         <div className="bg-surface/50 border border-border rounded-neo p-6 backdrop-blur-neo">
           <h2 className="font-heading font-bold text-xl text-text-primary mb-4 flex items-center space-x-2">
             <Icon name="User" size={20} className="text-primary" />
-            <span>About Me</span>
+            <span> {t("aboutMe.title")} </span>
           </h2>
           
           <div className="space-y-4">
@@ -126,7 +127,7 @@ const PersonalIntroduction = () => {
       <motion.div variants={itemVariants} className="space-y-6">
         <h2 className="font-heading font-bold text-xl text-text-primary flex items-center space-x-2">
           <Icon name="Heart" size={20} className="text-primary" />
-          <span>What Drives Me</span>
+            <span> {t("aboutMe.drives")} </span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -158,22 +159,31 @@ const PersonalIntroduction = () => {
       {/* Call to Action */}
       <motion.div variants={itemVariants} className="text-center lg:text-left">
         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4">
+          <Link to="/projects-portfolio">
           <Button
             variant="primary"
             iconName="Eye"
             iconPosition="left"
             className="w-full sm:w-auto"
           >
-            View My Projects
+            {t("ctaButtons.viewMyWork")}
           </Button>
+          </Link>
           
           <Button
             variant="outline"
             iconName="Download"
             iconPosition="left"
             className="w-full sm:w-auto"
+            onClick={() => {
+                  // Mock resume download
+                  const link = document.createElement('a');
+                  link.href = '/assets/images/resume/curriculo-(ingles).pdf';
+                  link.download = 'curriculo-(ingles).pdf';
+                  link.click();
+                }}
           >
-            Download Resume
+            {t("ctaButtons.resume")}
           </Button>
         </div>
       </motion.div>

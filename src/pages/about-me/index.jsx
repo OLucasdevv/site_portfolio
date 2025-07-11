@@ -99,7 +99,7 @@ const AboutMe = () => {
     <>
       <Helmet>
         <title>About Me - Lucas Eduardo | Web Developer & Cybersecurity Enthusiast</title>
-        <meta name="description" content="Learn about Lucas Rodriguez, a passionate programming student specializing in front-end development and cybersecurity. Discover my journey, skills, and values." />
+        <meta name="description" content="Learn about Lucas Eduardo, a passionate programming student specializing in front-end development and cybersecurity. Discover my journey, skills, and values." />
         <meta name="keywords" content="Lucas Eduardo,Web developer, cybersecurity, React developer, programming student, web development, portfolio" />
         <meta property="og:title" content="About Me - Lucas Eduardo" />
         <meta property="og:description" content="Passionate programming student with expertise in React development and cybersecurity interests." />
@@ -238,15 +238,15 @@ const AboutMe = () => {
                   >
                     <h3 className="font-heading font-bold text-lg text-text-primary mb-4 flex items-center space-x-2">
                       <Icon name="BarChart3" size={18} className="text-primary" />
-                      <span>Quick Stats</span>
+                      <span> {t("quickStats.title")} </span>
                     </h3>
                     
                     <div className="space-y-4">
                       {[
-                        { label: "Years of Learning", value: "2+", icon: "Calendar" },
-                        { label: "Projects Completed", value: "2+", icon: "Code" },
-                        { label: "Technologies Learned", value: "10+", icon: "Layers" },
-                        { label: "Certifications", value: "0", icon: "Award" }
+                        { label: t("quickStats.years"), value: "2+", icon: "Calendar" },
+                        { label: t("quickStats.projects"), value: "2+", icon: "Code" },
+                        { label: t("quickStats.tech"), value: "10+", icon: "Layers" },
+                        { label: t("quickStats.certifications"), value: "0", icon: "Award" }
                       ].map((stat) => (
                         <div key={stat.label} className="flex items-center justify-between">
                           <div className="flex items-center space-x-2">
@@ -269,23 +269,22 @@ const AboutMe = () => {
                   >
                     <div className="flex items-center space-x-3 mb-3">
                       <div className="w-3 h-3 bg-success rounded-full animate-pulse"></div>
-                      <h3 className="font-heading font-bold text-lg text-text-primary">Currently</h3>
+                      <h3 className="font-heading font-bold text-lg text-text-primary"> {t("currently.title")} </h3>
                     </div>
                     
                     <p className="font-body text-text-secondary leading-relaxed mb-4">
-                      Actively seeking internship opportunities and junior developer positions 
-                      while continuing my studies and building exciting projects.
+                      {t("currently.subtitles")}
                     </p>
                     
                     <div className="flex flex-col space-y-2">
                       <Link to="/projects-portfolio">
                         <Button variant="success" className="w-full" iconName="Eye" iconPosition="left">
-                          View My Work
+                          {t("currently.button")}
                         </Button>
                       </Link>
                       <Link to="/contact">
                         <Button variant="outline" className="w-full" iconName="Mail" iconPosition="left">
-                          Get In Touch
+                          {t("currently.Touch")}
                         </Button>
                       </Link>
                     </div>

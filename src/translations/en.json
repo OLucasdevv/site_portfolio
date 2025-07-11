@@ -117,7 +117,45 @@
             "values": "Values"
         }
     },
-    "personalIntro": { 
-        "title": "Web Developer & Cybersecurity Enthusiast"
+    "quickStats": { 
+        "title": "Quick Stats",
+        "years": "Anos de Emprendizagem",
+        "projects": "Projetos Concluídos",
+        "tech": "Tecnologias Aprendidas",
+        "certifications": "certificações"
+    },
+    "currently": {
+        "title": "Currently",
+        "subtitles": "Actively seeking internship opportunities and junior developer positions while continuing my studies and building exciting projects.",
+        "button": "View My Work",
+        "Touch": "Get in Touch"
+    },
+    "aboutMe": {
+        "title": "About Me",
+        "subtitle": "I'm a passionate coding student with a deep fascination for cybersecurity and modern web development. My journey into technology began with a curiosity about how we can make a piece of rock into a CPU that runs the world nowadays and how digital systems work, which evolved into a passion for building secure and easy-to-use applications. I currently plan to pursue a degree in Software Engineering, having completed a technical degree in Systems Analysis and Development. I spend my days mastering React and JavaScript, and exploring the intersection of development and security. I believe that great code isn't just functional—it's secure, accessible, and meaningful. When I'm not coding, you'll find me researching the latest cybersecurity trends, running bootcamps, and watching personal growth videos.",
+        "drives": "What Drives Me",
+        "role": "Desenvolvedor Web & Entusiasta em Cibersegurança"
+    },
+    "interests": {
+        "web": {
+            "title": "Web Security",
+            "subtitle": "Exploring secure coding practices and vulnerability assessment"
+        },
+        "reactDevelopment": {
+            "title": "React Development",
+            "subtitle": "Building modern, responsive user interfaces"
+        },
+        "openSource": {
+            "title": "Open Source",
+            "subtitle": "Contributing to community projects and learning from others"
+        },
+        "contLearning": {
+            "title":"Continuous Learning",
+            "subtitle": "Staying updated with latest tech trends and best practices"
+        }
+    },
+    "ctaButtons": { 
+        "viewMywork": "View My Work",
+        "resume": "Download Resume"
     }
 }

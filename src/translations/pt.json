@@ -116,5 +116,49 @@
             "education": "Educação",
             "values": "Valores"
         }
+    },
+    
+    "quickStats": { 
+        "title": "Estatísticas Rápidas",
+        "years": "Anos de Emprendizagem",
+        "projects": "Projetos Concluídos",
+        "tech": "Tecnologias Aprendidas",
+        "certifications": "certificações"
+        
+    },
+    "currently": {
+        "title": "Atualmente",
+        "subtitles": "Buscando ativamente oportunidades de estágio e cargos de desenvolvedor júnior enquanto continuo meus estudos e desenvolvo projetos interessantes.",
+        "button": "Veja Meu Trabalho",
+        "Touch": "Entre em Contato"
+    },
+    "aboutMe": {
+        "title": "Sobre Mim",
+        "subtitle": "Sou um estudante de programação apaixonado, com profundo fascínio por segurança cibernética e desenvolvimento web moderno. Minha jornada na tecnologia começou com a curiosidade sobre como os sistemas digitais funcionam, que evoluiu para uma paixão por criar aplicativos seguros e fáceis de usar.Atualmente pretendo cursar Engenharia de Software, terminei um técnico em Análise e Desenvolvimento de Sistemas, passo meus dias dominando React, JavaScript e explorando a interseção entre desenvolvimento e segurança. Acredito que um ótimo código não é apenas funcional — é seguro, acessível e significativo.Quando não estou programando, você me encontrará pesquisando as últimas tendências em segurança cibernética, realizando bootcamps e assistindo vídeos de crescimento pessoal.",
+        "drives": "O Que Me Move",
+        "role": "Desenvolvedor Web & Entusiasta em Cibersegurança"    
+    },
+    "interests": {
+        "web": {
+            "title": "Segurança de Aplicações Web",
+            "subtitle": "Explorando práticas de codificação seguras e avaliação de vulnerabilidades"
+        },
+        "reactDevelopment": {
+            "title": "Desenvolvimento React",
+            "subtitle": "Construindo interfaces de usuário modernas e responsivas"
+        },
+        "openSource": {
+            "title": "Open Source",
+            "subtitle": "Open Source"
+        },
+        "contLearning": {
+            "title":"Aprendizagem Continua",
+            "subtitle": "Manter-se atualizado com as últimas tendências tecnológicas e melhores práticas"
+        }
+    },
+    "ctaButtons": { 
+        "viewMywork": "Veja meu trabalho",
+        "resume": "Baixar Currículo"
     }
+
 }
