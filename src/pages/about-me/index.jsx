@@ -9,7 +9,7 @@ import PersonalIntroduction from './components/PersonalIntroduction';
 import SkillsShowcase from './components/SkillsShowcase';
 import EducationTimeline from './components/EducationTimeline';
 import PersonalValues from './components/PersonalValues';
-import { useLanguage } from '../../../contexts/LanguageContext';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const AboutMe = () => {
   const [currentLanguage, setCurrentLanguage] = useState('en');
