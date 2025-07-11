@@ -117,10 +117,10 @@ const SkillsShowcase = () => {
     >
       <div className="text-center lg:text-left">
         <h2 className="font-heading font-bold text-2xl lg:text-3xl text-text-primary mb-2">
-          Technical Skills
+          {t("technicalSkills.title")}
         </h2>
         <p className="font-body text-text-secondary">
-          A comprehensive overview of my technical expertise and proficiency levels
+          {t("technicalSkills.subtitle")}
         </p>
       </div>
 

@@ -155,7 +155,11 @@
         }
     },
     "ctaButtons": { 
-        "viewMywork": "View My Work",
+        "viewMyWork": "View My Work",
         "resume": "Download Resume"
+    },
+    "technicalSkills": {
+        "title": "Technical Skills",
+        "subtitle": "A comprehensive overview of my technical expertise and proficiency levels"
     }
 }

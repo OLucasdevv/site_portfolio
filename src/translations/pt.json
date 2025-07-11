@@ -159,6 +159,10 @@
     "ctaButtons": { 
         "viewMywork": "Veja meu trabalho",
         "resume": "Baixar Currículo"
+    },
+    "technicalSkills": {
+        "title": "Habilidades Técnicas",
+        "subtitle": "Uma visão geral abrangente da minha experiência técnica e níveis de proficiência"
     }
 
 }
