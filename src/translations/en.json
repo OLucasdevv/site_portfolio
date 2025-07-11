@@ -106,7 +106,8 @@
             "lucas": "lucas"
         },
         "indexAboutMeSubtitle": {
-            "subtitle": "Discover my journey from curious student to passionate developer, exploring the intersection of creativity, security, and cutting-edge technology."
+            "subtitle": "Discover my journey from curious student to passionate developer, exploring the intersection of creativity, security, and cutting-edge technology.",
+            "getToKnow": "Get to Know me Better"
     },
     "about": {
         "nav": {

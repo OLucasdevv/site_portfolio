@@ -129,7 +129,7 @@ const AboutMe = () => {
                   className="inline-flex items-center space-x-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-neo text-primary font-caption text-sm"
                 >
                   <Icon name="Sparkles" size={16} />
-                  <span> {t("indexAboutMeSubtitle.subtitle")}  </span>
+                  <span> {t("indexAboutMeSubtitle.getToKnow")}  </span>
                 </motion.div>
                 
                 <motion.h1
