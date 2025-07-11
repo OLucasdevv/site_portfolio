@@ -4,6 +4,7 @@ import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
 import { useLanguage } from '../../../contexts/LanguageContext';
+import { Link } from 'react-router-dom';
 
 const PersonalIntroduction = () => {
   const [isVisible, setIsVisible] = useState(false);
