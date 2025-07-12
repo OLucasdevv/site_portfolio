@@ -70,7 +70,7 @@ const SkillsShowcase = () => {
     }
   };
 
-  const SkillBar = ({ skill, index, categoryIndex }) => {
+  const SkillBar = ({ skill, index, categoryIndex, animatedSkills, setAnimatedSkills }) => {
     const [progress, setProgress] = useState(0);
     const skillKey = `${categoryIndex}-${index}`;
 
@@ -153,6 +153,8 @@ const SkillsShowcase = () => {
                     skill={skill}
                     index={index}
                     categoryIndex={categoryIndex}
+                    animatedSkills={animatedSkills}
+                    setAnimatedSkills={setAnimatedSkills}
                   />
                 ))}
               </div>
