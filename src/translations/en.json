@@ -119,16 +119,16 @@
     },
     "quickStats": { 
         "title": "Quick Stats",
-        "years": "Anos de Emprendizagem",
-        "projects": "Projetos Concluídos",
-        "tech": "Tecnologias Aprendidas",
-        "certifications": "certificações"
+        "years": "Years of Learning",
+        "projects": "Completed Projects",
+        "tech": "Technologies Learned",
+        "certifications": "certifications"
     },
     "currently": {
         "title": "Currently",
         "subtitles": "Actively seeking internship opportunities and junior developer positions while continuing my studies and building exciting projects.",
         "button": "View My Work",
-        "Touch": "Get in Touch"
+        "touch": "Get in Touch"
     },
     "aboutMe": {
         "title": "About Me",

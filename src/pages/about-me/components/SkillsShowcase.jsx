@@ -1,12 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import Icon from '../../../components/AppIcon';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 const SkillsShowcase = () => {
   const [currentLanguage, setCurrentLanguage] = useState('en');
   const [animatedSkills, setAnimatedSkills] = useState(new Set());
   const skillsRef = useRef(null);
   const isInView = useInView(skillsRef, { once: true, threshold: 0.3 });
+  const {t} = useLanguage();
+  
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';

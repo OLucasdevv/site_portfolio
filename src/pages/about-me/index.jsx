@@ -284,7 +284,7 @@ const AboutMe = () => {
                       </Link>
                       <Link to="/contact">
                         <Button variant="outline" className="w-full" iconName="Mail" iconPosition="left">
-                          {t("currently.Touch")}
+                          {t("currently.touch")}
                         </Button>
                       </Link>
                     </div>
