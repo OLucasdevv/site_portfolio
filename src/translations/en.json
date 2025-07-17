@@ -1,0 +1,357 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello, I'm",
+        "name": "Lucas",
+        "roles": [
+            "Web Developer",
+            "Programming Student",
+            "Cybersecurity Enthusiast",
+            "Problem Solver"
+        ],
+        "motto": "It is not because things are difficult that we do not dare, it is because we do not dare that they are difficult. - Seneca",
+        "description": "Passionate programming student with a deep interest in cybersecurity and modern web development. Currently building innovative projects while exploring the intersection of security and user experience.",
+        "viewWork": "View My Work",
+        "downloadResume": "Download Resume",
+        "exploreMore": "Explore More"
+    },
+    "secureChat": {
+        "title": "SecureChat Aplication",
+        "description": "End-to-end encrypted messaging platform built with React and Node.js, featuring real-time communication and advanced security protocols.",
+        "category": "Full Stack",
+        "status": "Completed"
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "subtitle": "Explore my latest work showcasing modern web development, cybersecurity solutions, and innovative problem-solving approaches.",
+        "viewAll": "View All Projects"
+},
+    "language": {
+        "english": "English",
+        "portuguese": "Portuguese",
+        "switchTo": "Switch to"
+    },
+    "skill": {
+        "title": "Skills & Expertise",
+        "subtitle":"Continuously expanding my technical knowledge across web development, backend systems, and cybersecurity domains.",
+        "continuous": {
+            "title":"Continuous Learning",
+            "subtitle": "Currently expanding my knowledge in advanced React patterns, cloud security, and modern DevOps practices. Always eager to learn new technologies and methodologies."
+        }
+    },
+    "statuses": {
+    "Completed": "Completed",
+    "In Progress": "In Progress"
+},
+    "footer": {
+        "ready": "Ready to build something amazing?",
+        "getInTouch": "Get In Touch"
+    },
+    "stats": {
+        "projects": "Projects Completed",
+        "commits": "GitHub Commits",
+        "learning": "Learning Hours",
+        "technologies": "Technologies learned"
+    },
+    "cybersecurity": {
+        "name": "cybersecurity",
+        "networkSecurity": "Network Security",
+        "penetrationTesting": "Penetration Testing",
+        "vulnerabilityAssessment": "Vulnerability Assessment",
+        "securityProtocols": "Security Protocols",
+        "javascript": "JavaScript"
+    },
+    "frontEndDev": {
+        "title": "Frontend Development"
+    },
+    "contactPreview": {
+        "title": "Let's Connect",
+        "subtitle": "Ready to collaborate on your next project? I'm always excited to discuss new opportunities and innovative solutions.",
+        "getInTouch": {
+            "title": "Get In Touch",
+            "subtitle": "If you have a project in mind, liked my work, want to discuss collaboration opportunities, or just want to say hello, I'd love to hear from you. 😉",
+            "response": "Response Time",
+            "responseSubtitle": "I typically respond to messages within 24 hours. For urgent inquiries, feel free to reach out via LinkedIn for faster response."
+        }
+    },
+    "sendMessage": {
+        "title": "Send a Message",
+        "subtitle": "Message sent successfully! I'll get back to you soon.",
+        "name": {
+            "title": "Your Name",
+            "subtitle": "Enter Your full Name"
+        },
+        "email": {
+            "title": "Email Address",
+            "subtitle": "your.email@gmail.com"
+        },
+        "message": {
+            "title": "Message",
+            "subtitle": "Tell me about your project or inquiry..."
+        },
+        "messageButton": {
+            "send": "Send Message",
+            "submitting": "Sending...",
+            "detailedMessage": "For detailed inquiries, visit my ",
+            "fullContactPage": "full contact page"
+        }
+    },
+    "indexAboutMe": {
+            "about": "About",
+            "lucas": "Lucas"
+        },
+        "indexAboutMeSubtitle": {
+            "subtitle": "Discover my journey from curious student to passionate developer, exploring the intersection of creativity, security, and cutting-edge technology.",
+            "getToKnow": "Get to Know me Better"
+    },
+    "about": {
+        "nav": {
+            "introduction": "Introduction",
+            "skills": "Skills",
+            "education": "Education",
+            "values": "Values"
+        }
+    },
+    "quickStats": { 
+        "title": "Quick Stats",
+        "years": "Years of Learning",
+        "projects": "Completed Projects",
+        "tech": "Technologies Learned",
+        "certifications": "certifications"
+    },
+    "currently": {
+        "title": "Currently",
+        "subtitles": "Actively seeking internship opportunities and junior developer positions while continuing my studies and building exciting projects.",
+        "button": "View My Work",
+        "touch": "Get in Touch"
+    },
+    "aboutMe": {
+        "title": "About Me",
+        "subtitle": "I'm a passionate coding student with a deep fascination for cybersecurity and modern web development. My journey into technology began with a curiosity about how we can make a piece of rock into a CPU that runs the world nowadays and how digital systems work, which evolved into a passion for building secure and easy-to-use applications. I currently plan to pursue a degree in Software Engineering, having completed a technical degree in Systems Analysis and Development. I spend my days mastering React and JavaScript, and exploring the intersection of development and security. I believe that great code isn't just functional—it's secure, accessible, and meaningful. When I'm not coding, you'll find me researching the latest cybersecurity trends, running bootcamps, and watching personal growth videos.",
+        "drives": "What Drives Me",
+        "role": "Web Developer & cybersecurity Enthusiast"
+    },
+    "interests": {
+        "web": {
+            "title": "Web Security",
+            "subtitle": "Exploring secure coding practices and vulnerability assessment"
+        },
+        "reactDevelopment": {
+            "title": "React Development",
+            "subtitle": "Building modern, responsive user interfaces"
+        },
+        "openSource": {
+            "title": "Open Source",
+            "subtitle": "Contributing to community projects and learning from others"
+        },
+        "contLearning": {
+            "title":"Continuous Learning",
+            "subtitle": "Staying updated with latest tech trends and best practices"
+        }
+    },
+    "ctaButtons": { 
+        "viewMyWork": "View My Work",
+        "resume": "Download Resume"
+    },
+    "technicalSkills": {
+        "title": "Technical Skills",
+        "subtitle": "A comprehensive overview of my technical expertise and proficiency levels"
+    },
+    "growth": {
+        "title": "Continuous Growth",
+        "subtitle": "I'm constantly expanding my skill set through hands-on projects, online courses, and real-world applications. My focus is on building secure, scalable, and user-friendly web applications while staying current with industry best practices."
+    },
+    "skillsCategory": {
+        "frontend": "Frontend Developer",
+        "tools": "Tools & Technologies",
+        "responsiveDesign": "Responsive Design",
+        "cybersecurity": {
+            "title": "Cyber Security",
+            "web": "Web Security",
+            "penTest": "Penetration Testing",
+            "networkSecurity": "Network Security",
+            "vulnerabilityAssessment": "Vulnerability Assessment"
+        }
+        
+    },
+    "funFacts": {
+        "title": "Did You Know?",
+        "sub1": "I thought JavaScript was Java at first.",
+        "sub2": "Coffee is my primary programming fuel ☕",
+        "sub3": "I started programming out of curiosity and ended up falling in love with it. ❤",
+        "sub4": "I'm self-taught and have learned more from the internet in general than I ever did in any classroom."
+    },
+    "EducationTimeline":  {
+        "title": "Education & Learning Journey",
+        "subtitle": "My academic background and continuous learning path in technology"
+    },
+    "timelineData": {
+        "id1": {
+        "subtitle": "technical course in systems analysis and development",
+        "title": "Key Learning Areas",
+        "institution": "Santa Maria Technical School",
+        "period": "02/10/2024 - 07/25/2025",
+        "status": "Completed",
+        "description": "A technical undergraduate program focused on software development and systems analysis. Covers programming logic, databases, software engineering, computer networks, and agile methodologies. Provides a solid foundation for roles such as full-stack developer, systems analyst, or IT professional.",
+        "highlights": {
+            "programmingLogic": "Programming Logic",
+            "algorithms": "Algorithms and Data Structures",
+            "oop": "Object-Oriented Programming",
+            "database": "Relational Databases (SQL)",
+            "networks": "Computer Networks",
+            "systemsAnalysis": "Systems Analysis",
+            "softwareEngineering": "Software Engineering",
+            "webDev": "Web Development",
+            "projectManagement": "Project Management (PMI / Scrum)",
+            "operatingSystems": "Operating Systems"
+        }
+        }
+    },
+    "timelineData2": {
+        "id2": {
+        "subtitle": "Advanced English Course",
+        "title": "Key Learning Areas",
+        "institution": "Gama Interschool Language Center",
+        "period": "2018 - 2022",
+        "status": "Completed",
+        "description": "Comprehensive English course focused on speaking, listening, reading, and writing skills. Achieved fluency in the language, with strong command of technical vocabulary and effective communication in academic and professional contexts. Earned advanced-level certification upon completing oral and written assessments.",
+        "highlights": {
+            "advancedConversation": "Advanced conversation",
+            "listeningComprehension": "Listening comprehension of diverse accents",
+            "readingTechnicalTexts": "Reading technical texts",
+            "academicWriting": "Academic and professional writing",
+            "technicalVocabulary": "Technical vocabulary",
+            "advancedGrammar": "Advanced grammar",
+            "fluentCommunication": "Fluent English for daily and professional communication"
+            }
+        }
+    },
+    "timelineData3": {
+  "id3": {
+        "subtitle": "Self-Taught Web Development Learning",
+        "title": "Main Learning Channels and Areas",
+        "institution": "Self-taught",
+        "period": "2023 - Present",
+        "status": "In Progress",
+        "description": "Continuous study of web technologies through online courses, videos, documentation, and personal projects. Focus on both front-end and back-end development, with hands-on application in real projects and mastery of modern tools in the JavaScript ecosystem.",
+            "highlights": {
+            "freecode": "freeCodeCamp.org channel",
+            "fireship": "Fireship channel",
+            "supersimple": "SuperSimpleDev channel",
+            "omelhozin": "Filipe Deschamps channel",
+            "responsiveDesign": "Hands-on experience with responsive design using HTML, CSS, and Bootstrap.",
+            "debuggingSkills": "Skilled in using DevTools and JS console to find and fix bugs.",
+            "learningDiscipline": "Self-discipline in studying web development with focus on best practices and modern stack."
+
+             }
+        }
+    },
+    "learningFocus": {
+        "title": "Current Learning Focus",
+        "subtitle": "I'm currently deepening my expertise in advanced React patterns, exploring serverless architectures, and pursuing additional cybersecurity certifications to bridge the gap between development and security.",
+        "react": "Advanced React"
+    },
+    "valueData": {
+        "title": "Core Values & Philosophy",
+        "subtitle": "The principles that guide my approach to development and professional growth",
+        "status": "In Practice",
+        "id1": {
+            "title": "Security First",
+            "description": "I believe that secure code is good code. Every application should be built with security considerations from the ground up, not as an afterthought.",
+            "examples": {
+                "ex1": "Input validation",
+                "ex2": "Secure authentication practices",
+                "ex3": "Data encryption and protection",
+                "ex4": "Regular security audits"
+            }
+        }
+    },
+    "valueData2": {
+        "status": "In Practice",
+        "id2": {
+            "title": "User-Centric Design",
+            "description": "Technology should serve people, not the other way around. I focus on creating intuitive, accessible experiences that solve real problems.",
+            "examples": {
+                "ex1": "Accessibility compliance (WCAG)",
+                "ex2": "Responsive design principles",
+                "ex3": "Performance optimization",
+                "ex4": "User feedback integration"
+            }
+        }
+    },
+    "valueData3": {
+        "status": "In Practice",
+        "id3": {
+            "title": "Continuous Learning",
+            "description": "The tech industry evolves rapidly, and I embrace this change by constantly learning new technologies, methodologies, and best practices.",
+            "examples": {
+                "ex1": "Daily coding practice",
+                "ex2": "Open source contributions",
+                "ex3": "Tech community participation",
+                "ex4": "Mentoring fellow developers"
+            }
+        }
+    },
+    "valueData4": {
+        "status": "In Practice",
+        "id4": {
+            "title": "Clean Code",
+            "description": "Code should be readable, maintainable, and well-documented. I strive to write code that my future self and teammates will thank me for.",
+            "examples": {
+                "ex1": "Consistent coding standards",
+                "ex2": "Comprehensive documentation",
+                "ex3": "Test-driven development",
+                "ex4": "Code review practices"
+            }
+        }
+    },
+    "valueData5": {
+        "status": "In Practice",
+        "id5": {
+            "title": "Collaboration",
+            "description": "Great software is built by great teams. I value open communication, knowledge sharing, and collective problem-solving.",
+            "examples": {
+                "ex1": "Pair programming sessions",
+                "ex2": "Knowledge sharing workshops",
+                "ex3": "Cross-functional teamwork",
+                "ex4": "Constructive code reviews"
+            }
+        }
+    },
+    "valueData6": {
+        "status": "In Practice",
+        "id6": {
+            "title": "Innovation",
+            "description": "I'm passionate about exploring new technologies and finding creative solutions to complex problems while maintaining practical feasibility.",
+            "examples": {
+                "ex1": "Experimental side projects",
+                "ex2": "Technology research",
+                "ex3": "Creative problem solving",
+                "ex4": "Process improvement initiatives"
+            }
+        }
+    },
+    "myDevPhilosophy": {
+        "title": "My Development Philosophy",
+        "subtitle": "I believe that great software is born from the intersection of technical excellence, user empathy, and continuous learning. Every line of code I write is an opportunity to create something meaningful, secure, and impactful. My goal is not just to build applications, but to craft digital experiences that make a positive difference in people's lives while maintaining the highest standards of security and performance."
+    },
+    "collab": {
+        "title1": "Ready to",
+        "title2": "collaborate",
+        "subtitle": "I'm always excited to discuss new opportunities, share knowledge, or collaborate on interesting projects. Let's build something amazing together!",
+        "button1": "Explore My Projects",
+        "button2": "Start Conversation"
+    },
+    "myProjects": {
+        "title1": "My",
+        "title2": "Projects",
+        "subtitle": "Explore my journey through code. Each project represents a step forward in my development skills, showcasing creativity, problem-solving, and technical growth.",
+        "portshowcase": "Portfolio Showcase"
+    }
+  
+}

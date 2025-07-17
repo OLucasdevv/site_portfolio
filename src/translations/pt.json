@@ -1,0 +1,360 @@
+{
+    "nav": {
+        "home": "In\u00edcio",
+        "about": "Sobre",
+        "projects": "Projetos",
+        "contact": "Contato"
+    },
+    "hero": {
+        "greeting": "Ol\u00e1, meu nome é",
+        "name": "Lucas",
+        "roles": [
+            "Desenvolvedor Web",
+            "Estudante de Programa\u00e7\u00e3o",
+            "Entusiasta de Ciberseguran\u00e7a",
+            "Solucionador de Problemas"
+        ],
+        "motto": "Não é porque as coisas são difíceis que não ousamos, é porque não ousamos que elas são difíceis. - Sêneca",
+        "description": "Estudante de programa\u00e7\u00e3o apaixonado com profundo interesse em ciberseguran\u00e7a e desenvolvimento web moderno. Atualmente construindo projetos inovadores enquanto exploro a interse\u00e7\u00e3o entre seguran\u00e7a e experi\u00eancia do usu\u00e1rio.",
+        "viewWork": "Ver Meu Trabalho",
+        "downloadResume": "Baixar Curr\u00edculo",
+        "exploreMore": "Explorar Mais"
+    },
+    "secureChat": {
+        "title": "Aplicativo secureChat",
+        "description": "Plataforma de mensagens com criptografia de ponta a ponta, desenvolvida com React e Node.js, com comunicação em tempo real e protocolos de segurança avançados.",
+        "category": "Full Stack",
+        "status": "Concluído"
+    },
+    "projects": {
+        "title": "Projetos em Destaque",
+        "subtitle": "Explore meus trabalhos mais recentes com foco em desenvolvimento web moderno, soluções de cibersegurança e abordagens criativas para resolver problemas.",
+        "viewAll": "Ver Todos os Projetos"
+    },
+    "statuses": {
+    "Completed": "Concluído",
+    "In Progress": "Em Progresso"
+},
+"skill": {
+        "title": "Habilidades e experiências",
+        "subtitle":"Expandindo continuamente meu conhecimento técnico em desenvolvimento Web, sistemas back-end e domínios de segurança cibernética.",
+        "continuous": {
+            "title":"Aprendizagem Continua",
+            "subtitle": "Atualmente expandindo meu conhecimento em padrões avançados do React, segurança em nuvem e práticas modernas de DevOps. Estou sempre em busca de aprender novas tecnologias e metodologias."
+        }
+    },
+    "language": {
+        "english": "Ingl\u00eas",
+        "portuguese": "Portugu\u00eas",
+        "switchTo": "Mudar para"
+    },
+    "footer": {
+        "ready": "Pronto para construir algo incr\u00edvel?",
+        "getInTouch": "Entre em Contato"
+    },
+    "stats": {
+        "projects": "Projetos Concluídos",
+        "commits": "Commits no Github",
+        "learning": "Horas de Aprendizagem",
+        "technologies": "Tecnologias Aprendidas"
+    },
+    "cybersecurity": {
+        "name": "cibersegurança",
+        "networkSecurity": "Segurança de Rede",
+        "penetrationTesting": "Teste de Penetração",
+        "vulnerabilityAssessment": "Avaliação de Vulnerabilidades",
+        "securityProtocols": "Protocolos de Segurança",
+        "javascript": "JavaScript"
+    },
+    "frontEndDev": {
+        "title": "Desenvolvimento FrontEnd"
+    },
+    "contactPreview": {
+        "title": "Bora se Conectar?",
+        "subtitle": "Pronto para colaborar no seu próximo projeto? Estou sempre animado para discutir novas oportunidades e soluções inovadoras.",
+        "getInTouch": {
+            "title": "Entre em Contato",
+            "subtitle": "Se você tem um projeto em mente, gostou do meu trabalho, quer discutir oportunidades de colaboração ou apenas quer dizer olá, adoraria trocar um papo com você. 😉",
+            "response": "Tempo de Resposta",
+            "responseSubtitle": "Normalmente respondo às mensagens em até 24 horas. Para dúvidas urgentes, sinta-se à vontade para entrar em contato pelo LinkedIn para uma resposta mais rápida."
+        }
+    },
+    "sendMessage": {
+        "title": "Mande uma mensagem",
+        "subtitle": "Mensagem enviada com sucesso! Entrarei em contato com você em breve.",
+        "name": {
+            "title": "Seu Nome",
+            "subtitle": "Digite seu Nome Completo"
+        },
+        "email": {
+            "title": "Endereço de email",
+            "subtitle": "seu.email@gmail.com"
+        },
+        "message": {
+            "title": "Mensagem",
+            "subtitle": "Conte-me sobre seu projeto ou consulta..."
+        },
+        "messageButton": {
+            "send": "Mandar Mensagem",
+            "submitting": "Mandando...",
+            "detailedMessage": "Para consultas detalhadas, visite minha",
+            "fullContactPage": "página de contato completa"
+        }
+    },
+    "indexAboutMe": {
+            "about": "Quem Sou",
+            "lucas": "Eu"
+        },
+        "indexAboutMeSubtitle": {
+            "subtitle": "Descubra minha jornada de estudante curioso a desenvolvedor apaixonado, explorando a interseção entre criatividade, segurança e tecnologia de ponta.",
+            "getToKnow": "Permita-me apresentar"
+    },
+    "about": {
+        "nav": {
+            "introduction": "Introdução",
+            "skills": "Habilidades",
+            "education": "Educação",
+            "values": "Valores"
+        }
+    },
+    
+    "quickStats": { 
+        "title": "Estatísticas Rápidas",
+        "years": "Anos de Emprendizagem",
+        "projects": "Projetos Concluídos",
+        "tech": "Tecnologias Aprendidas",
+        "certifications": "certificações"
+        
+    },
+    "currently": {
+        "title": "Atualmente",
+        "subtitles": "Buscando ativamente oportunidades de estágio e cargos de desenvolvedor júnior enquanto continuo meus estudos e desenvolvo projetos interessantes.",
+        "button": "Veja Meu Trabalho",
+        "touch": "Entre em Contato"
+    },
+    "aboutMe": {
+        "title": "Sobre Mim",
+        "subtitle": "Sou um estudante de programação apaixonado, com profundo fascínio por segurança cibernética e desenvolvimento web moderno. Minha jornada na tecnologia começou com a curiosidade sobre como os sistemas digitais funcionam, que evoluiu para uma paixão por criar aplicativos seguros e fáceis de usar.Atualmente pretendo cursar Engenharia de Software, terminei um técnico em Análise e Desenvolvimento de Sistemas, passo meus dias dominando React, JavaScript e explorando a interseção entre desenvolvimento e segurança. Acredito que um ótimo código não é apenas funcional — é seguro, acessível e significativo.Quando não estou programando, você me encontrará pesquisando as últimas tendências em segurança cibernética, realizando bootcamps e assistindo vídeos de crescimento pessoal.",
+        "drives": "O Que Me Move",
+        "role": "Desenvolvedor Web & Entusiasta em Cibersegurança"    
+    },
+    "interests": {
+        "web": {
+            "title": "Segurança de Aplicações Web",
+            "subtitle": "Explorando práticas de codificação seguras e avaliação de vulnerabilidades"
+        },
+        "reactDevelopment": {
+            "title": "Desenvolvimento React",
+            "subtitle": "Construindo interfaces de usuário modernas e responsivas"
+        },
+        "openSource": {
+            "title": "Open Source",
+            "subtitle": "Contribuir para projetos comunitários e aprender com os outros"
+        },
+        "contLearning": {
+            "title":"Aprendizagem Continua",
+            "subtitle": "Manter-se atualizado com as últimas tendências tecnológicas e melhores práticas"
+        }
+    },
+    "ctaButtons": { 
+        "viewMyWork": "Veja meu trabalho",
+        "resume": "Baixar Currículo"
+    },
+    "technicalSkills": {
+        "title": "Habilidades Técnicas",
+        "subtitle": "Uma visão geral abrangente da minha experiência técnica e níveis de proficiência"
+    },
+    "growth": {
+        "title": "Crescimento Contínuo",
+        "subtitle": "Estou constantemente expandindo minhas habilidades por meio de projetos práticos, cursos online e aplicações práticas. Meu foco é construir aplicações web seguras, escaláveis e fáceis de usar, mantendo-me atualizado com as melhores práticas do setor."
+    },
+    "skillsCategory": {
+        "frontend": "Desenvolvimento FrontEnd",
+        "tools": "Tecnologias e Ferramentas",
+        "responsiveDesign": "Design Responsivo",
+        "cybersecurity": {
+            "title": "Cibersegurança",
+            "web": "Segurança Web",
+            "penTest": "Teste de Penetração",
+            "networkSecurity": "Segurança de Rede",
+            "vulnerabilityAssessment": "Avaliação de Vulnerabilidades"
+        }
+        
+    },
+    "funFacts": {
+        "title": "Curiosidades",
+        "sub1": "Achei que JavaScript era Java no começo.",
+        "sub2": "O café é meu principal combustível quando estou programando ☕",
+        "sub3": "Comecei a programar por curiosidade e acabei me apaixonando. ❤",
+        "sub4": "Sou autodidata e aprendi mais na internet do que em qualquer sala de aula."
+    },
+    "EducationTimeline":  {
+        "title": "Formação e Jornada de Aprendizado",
+        "subtitle": "Minha formação acadêmica e trajetória de aprendizagem contínua em tecnologia"
+    },
+    "timelineData": {
+        "id1": {
+        "subtitle": "Curso Superior Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS)",
+        "title": "Principais Áreas de Aprendizado",
+        "institution": "Escola Técnica de Santa Maria - ETSM",
+        "period": "10/02/2024 - 25/07/2025",
+        "status": "Concluído",
+        "description": "Curso superior tecnólogo focado no desenvolvimento de sistemas e soluções de software. Abrange desde lógica de programação e bancos de dados até engenharia de software, redes de computadores e metodologias ágeis. Proporciona uma base sólida para atuar como desenvolvedor full stack, analista de sistemas ou em áreas relacionadas à tecnologia da informação.",
+        "highlights": {
+            "programmingLogic": "Lógica de Programação",
+            "algorithms": "Algoritmos e Estruturas de Dados",
+            "oop": "Programação Orientada a Objetos",
+            "database": "Banco de Dados Relacional (SQL)",
+            "networks": "Redes de Computadores",
+            "systemsAnalysis": "Análise de Sistemas",
+            "softwareEngineering": "Engenharia de Software",
+            "webDev": "Desenvolvimento Web",
+            "projectManagement": "Gestão de Projetos (PMI / Scrum)",
+            "operatingSystems": "Sistemas Operacionais"
+            }
+        }
+    },
+    "timelineData2": {
+        "id2": {
+        "subtitle": "Curso de Inglês Avançado",
+        "title": "Principais Áreas de Aprendizado",
+        "institution": "Centro Interescolar de Línguas do Gama - CILG",
+        "period": "2018 - 2022",
+        "status": "Concluído",
+        "description": "Curso completo de inglês com foco em conversação, compreensão auditiva, leitura e escrita. Desenvolveu fluência no idioma, vocabulário técnico e habilidade para comunicação em contextos acadêmicos e profissionais. Certificado de conclusão no nível avançado após avaliação oral e escrita.",
+        "highlights": {
+            "advancedConversation": "Conversação avançada",
+            "listeningComprehension": "Compreensão auditiva de sotaques diversos",
+            "readingTechnicalTexts": "Leitura de textos técnicos",
+            "academicWriting": "Escrita acadêmica e profissional",
+            "technicalVocabulary": "Vocabulário técnico",
+            "advancedGrammar": "Gramática avançada",
+            "fluentCommunication": "Inglês fluente para comunicação diária e profissional"
+            }
+        }
+    },
+    "timelineData3": {
+   "id3": {
+        "subtitle": "Aprendizado Autodidata em Desenvolvimento Web",
+        "title": "Principais canais de aprendizado e áreas",
+        "institution": "Autodidata",
+        "period": "2023 - presente",
+        "status": "Em Andamento",
+        "description": "Estudo contínuo de tecnologias web por meio de cursos online, vídeos, documentações e projetos pessoais. Foco em desenvolvimento front-end e back-end, com aplicação prática em projetos reais e domínio das ferramentas modernas do ecossistema JavaScript.",
+        "highlights": {
+            "freecode": "canal freeCodeCamp.org",
+            "fireship": "canal Fireship",
+            "supersimple": " canal SuperSimpleDev",
+            "omelhozin": "canal Filipe Deschamps",  
+            "responsiveDesign": "Aprendizado prático de design responsivo com HTML, CSS e Bootstrap.",
+            "debuggingSkills": "Uso de DevTools e console JS para identificar e corrigir erros.",
+            "learningDiscipline": "Autodisciplina no estudo de desenvolvimento web com foco em boas práticas e stack moderna."
+
+            }
+        }
+    },
+    "learningFocus": {
+    "title": "Foco Atual de Aprendizado",
+    "subtitle": "Estou me aprofundando em padrões avançados de React, explorando arquiteturas serverless e buscando certificações extras em segurança cibernética para conectar desenvolvimento e segurança.",
+    "react": "React Avançado"
+    },
+  
+    "valueData": {
+    "title": "Princípios e Filosofia de Trabalho",
+    "subtitle": "Os princípios que guiam minha abordagem ao desenvolvimento e crescimento profissional.",
+    "status": "Na Prática",
+    "id1": {
+            "title": "Segurança em Primeiro Lugar",
+            "description": "Acredito que código seguro é código bom. Toda aplicação deve ser construída pensando em segurança desde o início, não como um detalhe depois.",
+            "examples": {
+                "ex1": "Validação de entrada",
+                "ex2": "Práticas seguras de autenticação",
+                "ex3": "Criptografia e proteção de dados",
+                "ex4": "Auditorias regulares de segurança"
+        }
+    }
+},
+"valueData2": {
+  "status": "Praticando",
+  "id2": {
+    "title": "Design Centrado no Usuário",
+    "description": "A tecnologia deve servir às pessoas, e não o contrário. Meu foco é criar experiências intuitivas e acessíveis que resolvam problemas reais.",
+    "examples":{
+      "ex1": "Conformidade com acessibilidade (WCAG)",
+      "ex2": "Princípios de design responsivo",
+      "ex3": "Otimização de performance",
+      "ex4": "Integração de feedback dos usuários"
+            }
+        }
+    },
+    "valueData3": {
+  "status": "Praticando",
+  "id3": {
+    "title": "Aprendizado Contínuo",
+    "description": "A área de tecnologia evolui rápido, e eu abraço essa mudança aprendendo constantemente novas tecnologias, metodologias e boas práticas.",
+    "examples": {
+      "ex1": "Prática diária de programação",
+      "ex2": "Contribuições para projetos open source",
+      "ex3": "Participação na comunidade tech",
+      "ex4": "Mentoria para outros desenvolvedores"
+    }
+  }
+},
+"valueData4": {
+  "status": "Na Prática",
+  "id4": {
+    "title": "Código Limpo",
+    "description": "O código deve ser legível, fácil de manter e bem documentado. Me esforço para escrever códigos que meu eu do futuro e meus colegas de equipe vão agradecer.",
+    "examples": {
+      "ex1": "Padrões de codificação consistentes",
+      "ex2": "Documentação completa",
+      "ex3": "Desenvolvimento orientado a testes (TDD)",
+      "ex4": "Práticas de revisão de código"
+    }
+  }
+},
+"valueData5": {
+  "status": "Na Prática",
+  "id5": {
+    "title": "Colaboração",
+    "description": "Ótimos softwares são construídos por ótimos times. Valorizo a comunicação aberta, o compartilhamento de conhecimento e a resolução coletiva de problemas.",
+    "examples": {
+      "ex1": "Sessões de programação em par",
+      "ex2": "Workshops de compartilhamento de conhecimento",
+      "ex3": "Trabalho em equipe multifuncional",
+      "ex4": "Revisões de código construtivas"
+    }
+  }
+},
+"valueData6": {
+  "status": "Na Prática",
+  "id6": {
+    "title": "Inovação",
+    "description": "Sou apaixonado por explorar novas tecnologias e encontrar soluções criativas para problemas complexos, mantendo sempre a viabilidade prática.",
+    "examples": {
+      "ex1": "Projetos paralelos experimentais",
+      "ex2": "Pesquisas de novas tecnologias",
+      "ex3": "Resolução criativa de problemas",
+      "ex4": "Iniciativas de melhoria de processos"
+    }
+  }
+},
+"myDevPhilosophy": {
+  "title": "Minha Filosofia de Desenvolvimento",
+  "subtitle": "Acredito que um software de qualidade nasce da interseção entre excelência técnica, empatia pelo usuário e aprendizado contínuo. Cada linha de código que escrevo é uma oportunidade de criar algo significativo, seguro e impactante. Meu objetivo não é apenas desenvolver aplicações, mas criar experiências digitais que façam a diferença na vida das pessoas, mantendo os mais altos padrões de segurança e desempenho."
+},
+"collab": {
+  "title1": "Pronto para",
+  "title2": "colaborar",
+  "subtitle": "Estou sempre empolgado para discutir novas oportunidades, compartilhar conhecimento ou colaborar em projetos interessantes. Vamos construir algo incrível juntos!",
+  "button1": "Explorar Meus Projetos",
+  "button2": "Iniciar Conversa"
+},
+"myProjects": {
+        "title1": "Meus",
+        "title2": "Projetos",
+        "subtitle": "Explore minha jornada através do código. Cada projeto representa um avanço em minhas habilidades de desenvolvimento, demonstrando criatividade, resolução de problemas e crescimento técnico.",
+        "portshowcase": "Portfolio Showcase"
+    }
+
+}
