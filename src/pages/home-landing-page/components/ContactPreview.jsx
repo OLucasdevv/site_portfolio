@@ -19,21 +19,21 @@ const ContactPreview = () => {
     {
       icon: "Mail",
       title: "Email",
-      description: "lucas@example.com",
-      action: "mailto:lucas@example.com",
+      description: "lucastiusammm@gmail.com",
+      action: "mailto:lucastiusammm@gmail.com",
       color: "primary"
     },
     {
       icon: "Linkedin",
       title: "LinkedIn",
-      description: "Connect professionally",
+      description: t("connect.title"),
       action: "https://www.linkedin.com/in/lucas-eduardo-23b7a8350/",
       color: "secondary"
     },
     {
       icon: "Github",
       title: "GitHub",
-      description: "View my repositories",
+      description: t("github.title"),
       action: "https://github.com/OLucasdevv",
       color: "accent"
     }

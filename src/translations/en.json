@@ -352,6 +352,68 @@
         "title2": "Projects",
         "subtitle": "Explore my journey through code. Each project represents a step forward in my development skills, showcasing creativity, problem-solving, and technical growth.",
         "portshowcase": "Portfolio Showcase"
+    },
+    "contactTitle": {
+        "title1": "Ready to Build Something",
+        "title2": "Amazing Together?",
+        "subtitle": "Whether you have a project in mind, think i would be a great add to your company, want to collaborate, or just want to say hello, I'd love to hear from you. Let's turn your ideas into reality."
+    },
+    "contactForm": {
+        "title1": "Let's Work",
+        "title2": "Together",
+        "subtitle": "Ready to bring your ideas to life? Send me a message and let's discuss your project.",
+        "secure": "Your information is secure and will never be shared.",
+        "nameField": {
+            "title": "Full Name *",
+            "placeholder": "Enter your full name",
+            "disclaimer": "Name must be at least 2 characters"
+        },
+        "emailField": {
+            "title": "Email Address *",
+            "placeholder": "your.email@example.com",
+            "disclaimer": "Please enter a valid email address"
+        },
+        "subjectField": {
+            "title": "Subject *",
+            "placeholder": "What's this about?",
+            "disclaimer": "Subject must be at least 5 characters"   
+        },
+        "messageField": {
+            "title": "Message *",
+            "placeholder": "Tell me about your project, idea, timeline, any specific requirements or just whatever you want to talk about...",
+            "disclaimer": "Message must be at least 10 characters",
+            "minimum": "Minimum 10 characters required"
+        }
+    },
+    "contactSuccess": {
+        "title": "Message Sent Successfully!",
+        "subtitle1": "Thank you for reaching out,",
+        "subtitle2": "I've received your message and will get back to you soon.",
+        "messageSummary": {
+            "from": "From",
+            "email": "Email",
+            "subject": "Subject",
+            "sent": "Sent"
+        },
+        "happensNext": {
+            "title": "What happens next?",
+            "li1": "I'll review your message carefully",
+            "li2": "You'll receive a response",
+            "li3": "We can schedule a call if needed",
+            "responseTime": "within 24 hours"
+        },
+        "button1": "Back to Contact",
+        "button2": "View My Work",
+        "disclaimer": "This message will close automatically in a few seconds"
+    },
+    "connect": {
+        "title": "Connect professionally"
+    },
+    "github": {
+        "title": "View my repositories"
+    },
+    "loading": {
+        "main": "Loading my story..."
     }
   
 }

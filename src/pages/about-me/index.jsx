@@ -89,7 +89,7 @@ const AboutMe = () => {
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center space-y-4">
           <div className="w-16 h-16 border-4 border-primary/30 border-t-primary rounded-full animate-spin mx-auto"></div>
-          <p className="font-body text-text-secondary">Loading my story...</p>
+          <p className="font-body text-text-secondary"> {t("loading.main")} </p>
         </div>
       </div>
     );

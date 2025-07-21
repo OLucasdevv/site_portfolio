@@ -5,12 +5,15 @@ import ContactForm from './components/ContactForm';
 import ContactInfo from './components/ContactInfo';
 import ContactSuccess from './components/ContactSuccess';
 import Icon from '../../components/AppIcon';
+import { useLanguage } from '../../contexts/LanguageContext';
+
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [submittedData, setSubmittedData] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
+    const { t } = useLanguage();
 
   useEffect(() => {
     // Simulate page load animation
@@ -71,20 +74,19 @@ const Contact = () => {
               <div className="inline-flex items-center space-x-2 bg-primary/10 border border-primary/20 rounded-neo px-4 py-2">
                 <Icon name="MessageCircle" size={18} className="text-primary" />
                 <span className="font-caption text-sm text-primary font-medium">
-                  Let's Connect
+                  {t("contactPreview.title")}
                 </span>
               </div>
               
               <h1 className="font-heading font-bold text-4xl lg:text-6xl text-text-primary">
-                Ready to Build Something
+                {t("contactTitle.title1")}
                 <span className="block bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Amazing Together?
+                  {t("contactTitle.title2")}
                 </span>
               </h1>
               
               <p className="font-body text-lg text-text-secondary max-w-2xl mx-auto">
-                Whether you have a project in mind, want to collaborate, or just want to say hello, 
-                I'd love to hear from you. Let's turn your ideas into reality.
+                {t("contactTitle.subtitle")}
               </p>
             </div>
           </div>

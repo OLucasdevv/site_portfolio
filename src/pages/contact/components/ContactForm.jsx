@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 import Input from '../../../components/ui/Input';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 const ContactForm = ({ onSubmit, isSubmitting }) => {
   const [formData, setFormData] = useState({
@@ -12,18 +13,19 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
   });
   const [errors, setErrors] = useState({});
   const [touched, setTouched] = useState({});
+  const { t } = useLanguage();
 
   const validateField = (name, value) => {
     switch (name) {
       case 'name':
-        return value.trim().length < 2 ? 'Name must be at least 2 characters' : '';
+        return value.trim().length < 2 ? t("contactForm.nameField.disclaimer") : '';
       case 'email':
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return !emailRegex.test(value) ? 'Please enter a valid email address' : '';
+        return !emailRegex.test(value) ? t("contactForm.emailField.disclaimer") : '';
       case 'subject':
-        return value.trim().length < 5 ? 'Subject must be at least 5 characters' : '';
+        return value.trim().length < 5 ? t("contactForm.subjectField.disclaimer") : '';
       case 'message':
-        return value.trim().length < 10 ? 'Message must be at least 10 characters' : '';
+        return value.trim().length < 10 ? t("contactForm.messageField.disclaimer") : '';
       default:
         return '';
     }
@@ -77,10 +79,10 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
     <div className="bg-surface border border-border rounded-neo p-6 lg:p-8 shadow-neo-ambient">
       <div className="mb-6">
         <h2 className="font-heading font-bold text-2xl text-text-primary mb-2">
-          Let's Work Together
+          {t("contactForm.title1")} <span className="text-gradient bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">{t("contactForm.title2")}</span>
         </h2>
         <p className="font-body text-text-secondary">
-          Ready to bring your ideas to life? Send me a message and let's discuss your project.
+          {t("contactForm.subtitle")}
         </p>
       </div>
 
@@ -88,14 +90,14 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
         {/* Name Field */}
         <div className="space-y-2">
           <label htmlFor="name" className="block font-body font-medium text-text-primary">
-            Full Name *
+            {t("contactForm.nameField.title")}
           </label>
           <div className="relative">
             <Input
               id="name"
               name="name"
               type="text"
-              placeholder="Enter your full name"
+              placeholder= {t("contactForm.nameField.placeholder")}
               value={formData.name}
               onChange={handleChange}
               onBlur={handleBlur}
@@ -117,14 +119,14 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
         {/* Email Field */}
         <div className="space-y-2">
           <label htmlFor="email" className="block font-body font-medium text-text-primary">
-            Email Address *
+            {t("contactForm.emailField.title")}
           </label>
           <div className="relative">
             <Input
               id="email"
               name="email"
               type="email"
-              placeholder="your.email@example.com"
+              placeholder={t("contactForm.emailField.placeholder")}
               value={formData.email}
               onChange={handleChange}
               onBlur={handleBlur}
@@ -146,14 +148,14 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
         {/* Subject Field */}
         <div className="space-y-2">
           <label htmlFor="subject" className="block font-body font-medium text-text-primary">
-            Subject *
+            {t("contactForm.subjectField.title")}
           </label>
           <div className="relative">
             <Input
               id="subject"
               name="subject"
               type="text"
-              placeholder="What's this about?"
+              placeholder={t("contactForm.subjectField.placeholder")}
               value={formData.subject}
               onChange={handleChange}
               onBlur={handleBlur}
@@ -175,14 +177,14 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
         {/* Message Field */}
         <div className="space-y-2">
           <label htmlFor="message" className="block font-body font-medium text-text-primary">
-            Message *
+            {t("contactForm.messageField.title")}
           </label>
           <div className="relative">
             <textarea
               id="message"
               name="message"
               rows={5}
-              placeholder="Tell me about your project, timeline, and any specific requirements..."
+              placeholder={t("contactForm.messageField.placeholder")}
               value={formData.message}
               onChange={handleChange}
               onBlur={handleBlur}
@@ -203,7 +205,7 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
           )}
           <div className="flex justify-between items-center">
             <p className="text-text-secondary text-sm font-caption">
-              Minimum 10 characters required
+              {t("contactForm.messageField.minimum")}
             </p>
             <p className="text-text-secondary text-sm font-caption">
               {formData.message.length}/500
@@ -222,7 +224,7 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
             iconPosition="right"
             className="w-full"
           >
-            {isSubmitting ? 'Sending Message...' : 'Send Message'}
+            {isSubmitting ? t("sendMessage.messageButton.submitting") : t("sendMessage.messageButton.send")}
           </Button>
         </div>
 
@@ -230,7 +232,7 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
         <div className="pt-4 border-t border-border">
           <div className="flex items-center space-x-2 text-text-secondary text-sm font-caption">
             <Icon name="Shield" size={16} />
-            <span>Your information is secure and will never be shared.</span>
+            <span> {t("contactForm.secure")} </span>
           </div>
         </div>
       </form>

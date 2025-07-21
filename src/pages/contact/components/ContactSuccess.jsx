@@ -1,19 +1,21 @@
 import React, { useEffect } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 const ContactSuccess = ({ onClose, formData }) => {
   useEffect(() => {
     // Auto-close after 5 seconds
     const timer = setTimeout(() => {
       onClose();
-    }, 5000);
+    }, 10000);
 
     return () => clearTimeout(timer);
   }, [onClose]);
-
-  const expectedResponseTime = "within 24 hours";
+  const { t } = useLanguage();
+  const expectedResponseTime = t("contactSuccess.happensNext.responseTime");
   const currentTime = new Date().toLocaleString();
+  
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-background/95 backdrop-blur-neo">
@@ -31,10 +33,10 @@ const ContactSuccess = ({ onClose, formData }) => {
         {/* Success Message */}
         <div className="text-center space-y-4 mb-8">
           <h2 className="font-heading font-bold text-2xl text-text-primary">
-            Message Sent Successfully!
+            {t("contactSuccess.title")}
           </h2>
           <p className="font-body text-text-secondary">
-            Thank you for reaching out, {formData?.name || 'there'}! I've received your message and will get back to you soon.
+            {t("contactSuccess.subtitle1")} {formData?.name || 'there'}! {t("contactSuccess.subtitle2")} 
           </p>
         </div>
 
@@ -42,25 +44,25 @@ const ContactSuccess = ({ onClose, formData }) => {
         <div className="bg-background/50 rounded-neo p-4 border border-border mb-6 space-y-3">
           <div className="flex items-center space-x-2">
             <Icon name="User" size={16} className="text-primary" />
-            <span className="font-caption text-sm text-text-secondary">From:</span>
+            <span className="font-caption text-sm text-text-secondary"> {t("contactSuccess.messageSummary.from")} :</span>
             <span className="font-body text-sm text-text-primary">{formData?.name}</span>
           </div>
           
           <div className="flex items-center space-x-2">
             <Icon name="Mail" size={16} className="text-primary" />
-            <span className="font-caption text-sm text-text-secondary">Email:</span>
+            <span className="font-caption text-sm text-text-secondary">{t("contactSuccess.messageSummary.email")}:</span>
             <span className="font-body text-sm text-text-primary">{formData?.email}</span>
           </div>
           
           <div className="flex items-center space-x-2">
             <Icon name="Tag" size={16} className="text-primary" />
-            <span className="font-caption text-sm text-text-secondary">Subject:</span>
+            <span className="font-caption text-sm text-text-secondary">{t("contactSuccess.messageSummary.subject")}:</span>
             <span className="font-body text-sm text-text-primary">{formData?.subject}</span>
           </div>
           
           <div className="flex items-center space-x-2">
             <Icon name="Clock" size={16} className="text-primary" />
-            <span className="font-caption text-sm text-text-secondary">Sent:</span>
+            <span className="font-caption text-sm text-text-secondary">{t("contactSuccess.messageSummary.sent")}:</span>
             <span className="font-body text-sm text-text-primary">{currentTime}</span>
           </div>
         </div>
@@ -71,12 +73,12 @@ const ContactSuccess = ({ onClose, formData }) => {
             <Icon name="Info" size={18} className="text-primary flex-shrink-0 mt-0.5" />
             <div>
               <h3 className="font-body font-semibold text-text-primary mb-1">
-                What happens next?
+                {t("contactSuccess.happensNext.title")}
               </h3>
               <ul className="space-y-1 text-sm text-text-secondary font-caption">
-                <li>• I'll review your message carefully</li>
-                <li>• You'll receive a response {expectedResponseTime}</li>
-                <li>• We can schedule a call if needed</li>
+                <li>• {t("contactSuccess.happensNext.li1")}</li>
+                <li>• {t("contactSuccess.happensNext.li2")} {expectedResponseTime}</li>
+                <li>• {t("contactSuccess.happensNext.li3")}</li>
               </ul>
             </div>
           </div>
@@ -91,7 +93,7 @@ const ContactSuccess = ({ onClose, formData }) => {
             iconPosition="left"
             className="flex-1"
           >
-            Back to Contact
+            {t("contactSuccess.button1")}
           </Button>
           
           <Button
@@ -101,7 +103,7 @@ const ContactSuccess = ({ onClose, formData }) => {
             iconPosition="left"
             className="flex-1"
           >
-            View My Work
+            {t("contactSuccess.button2")}
           </Button>
         </div>
 
@@ -109,7 +111,7 @@ const ContactSuccess = ({ onClose, formData }) => {
         <div className="mt-6 text-center">
           <div className="flex items-center justify-center space-x-2 text-text-secondary text-sm font-caption">
             <Icon name="Timer" size={14} />
-            <span>This message will close automatically in a few seconds</span>
+            <span>{t("contactSuccess.disclaimer")}</span>
           </div>
         </div>
 

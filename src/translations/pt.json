@@ -355,6 +355,71 @@
         "title2": "Projetos",
         "subtitle": "Explore minha jornada através do código. Cada projeto representa um avanço em minhas habilidades de desenvolvimento, demonstrando criatividade, resolução de problemas e crescimento técnico.",
         "portshowcase": "Portfolio Showcase"
+    },
+    "contactTitle": {
+        "title1": "Pronto Pra Construir Algo",
+        "title2": "Incrível Juntos?",
+        "subtitle": "Se você tem um projeto em mente, está buscando alguém que possa somar à sua equipe ou projeto, quer colaborar ou apenas quer dizer oi, adoraria ouvir de você. Vamos transformar suas ideias em realidade."
+    },
+    "contactForm": {
+    "title1": "Vamos Trabalhar",
+    "title2": "Juntos",
+    "subtitle": "Pronto para dar vida às suas ideias? Me envie uma mensagem e vamos discutir seu projeto.",
+    "secure": "Suas informações estão seguras e nunca serão compartilhadas.",
+    "nameField": {
+        "title": "Nome Completo *",
+        "placeholder": "Digite seu nome completo",
+        "disclaimer": "O nome deve ter pelo menos 2 caracteres"
+    },
+    "emailField": {
+        "title": "Endereço de E-mail *",
+        "placeholder": "seu.email@exemplo.com",
+        "disclaimer": "Por favor, insira um endereço de e-mail válido"
+    },
+    "subjectField": {
+        "title": "Assunto *",
+        "placeholder": "Quer falar do que?",
+        "disclaimer": "O assunto deve ter pelo menos 5 caracteres"   
+    },
+    "messageField": {
+        "title": "Mensagem *",
+        "placeholder": "Fale sobre seu projeto, ideia, prazos, requisitos específicos ou só qualquer coisa que queira conversar...",
+        "disclaimer": "A mensagem deve ter pelo menos 10 caracteres",
+        "minimum": "Mínimo de 10 caracteres obrigatório"
     }
+},
+"contactSuccess": {
+    "title": "Mensagem Enviada com Sucesso!",
+    "subtitle1": "Valeu por entrar em contato,",
+    "subtitle2": "Recebi sua mensagem e logo mais te respondo.",
+    "messageSummary": {
+        "from": "De",
+        "email": "Email",
+        "subject": "Assunto",
+        "sent": "Enviado"
+    },
+    "happensNext": {
+        "title": "O que acontece agora?",
+        "li1": "Vou ler sua mensagem com atenção",
+        "li2": "Você vai receber uma resposta",
+        "li3": "Se precisar, a gente marca uma call",
+        "responseTime": "dentro de 24 horas"
+    },
+    "button1": "Voltar para Contato",
+    "button2": "Veja Meu Trabalho",
+    "disclaimer": "Essa mensagem vai sumir sozinha em alguns segundos"
+},
+
+    "connect": {
+        "title": "Conexão profissional"
+    },
+    "github": {
+        "title": "Veja meus repositórios"
+    },
+    "loading": {
+        "main": "Carregando a minha História..."
+    }
+
+
 
 }

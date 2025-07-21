@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
+import { useLanguage } from '../../../contexts/LanguageContext';
 
 const ContactInfo = () => {
   const [hoveredSocial, setHoveredSocial] = useState(null);
   const [resumeDownloading, setResumeDownloading] = useState(false);
+  const { t } = useLanguage();
 
   const contactDetails = [
     {
       icon: 'Mail',
       label: 'Email',
-      value: 'lucas.dev@email.com',
+      value: 'lucastiusam2@gmail.com',
       href: 'mailto:lucas.dev@email.com',
       description: 'Best way to reach me'
     },
