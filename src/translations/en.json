@@ -414,6 +414,55 @@
     },
     "loading": {
         "main": "Loading my story..."
+    },
+    "available": {
+        "title": "Current Availability",
+        "subtitle": "Available for new projects",
+        "start": "Ready to start immediately",
+        "reach": "Best way to reach me"
+
+    },
+    "location": {
+        "title": "Brasília, DF",
+        "subtitle": "Open to remote opportunities",
+        "status": "Available Mon–Fri, 9AM–6PM (BRT – Brasília Time)",
+        "responseTime": "within 24 hours",
+        "responseTimesub": "Usually much faster!"
+    },
+    "connectWithMe": {
+        "title1": "Lets",
+        "title2": "Connect",
+        "github": "Veja meus repositórios de código",
+        "linkedIn": "Rede profissional"
+    },
+    "download": {
+        "title": "Download My Resume",
+        "subtitle": "Get a detailed overview of my skills, experience, and projects in PDF format."
+    },
+    "faq":{
+        "title" : "Frequently Asked Questions",
+        "subtitle": "Quick answers to common questions",
+        "question01": {
+            "title": "What's your typical response time?",
+            "subtitle": "I usually respond within 24 hours, often much faster during business hours."
+        },
+        "question02": {
+            "title": "What types of projects do you work on?",
+            "subtitle": "I specialize in React applications, responsive websites, and modern web development. I'm particularly interested in projects involving user experience and interactive interfaces."
+
+        },
+        "question03": {
+            "title": "Do you work with teams or solo clients?",
+            "subtitle": "Both! I enjoy collaborating with development teams and also work directly with individual clients and startups."
+            
+        },
+        "question04": {
+            "title": "What's your availability like?",
+            "subtitle": "I'm currently available for new projects. My schedule varies, but I always communicate clearly about timelines and availability."
+            
+        }
+        
     }
+    }
+    
   
-}

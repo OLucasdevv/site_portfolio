@@ -418,7 +418,57 @@
     },
     "loading": {
         "main": "Carregando a minha História..."
+    },
+    "available": {
+        "title": "Disponibilidade Atual",
+        "subtitle": "Disponível para novos projetos",
+        "start": "Pronto para começar imediatamente",
+        "reach": "O melhor jeito de me contatar."
+
+
+    },
+    "location": {
+        "title": "Brasília, DF",
+        "subtitle": "Aberto a oportunidades remotas",
+        "status": "Disponível seg a sex, das 9h às 18h (horário de Brasília)",
+        "responseTime": "dentro de 24 horas",
+        "responseTimesub": "Geralmente bem mais rápido!"
+        },
+    "connectWithMe": {
+        "title1": "Bora se",
+        "title2": "Conectar ",
+        "github": "Veja meus repositórios de código",
+        "linkedIn": "Rede profissional"
+        
+    },
+    "download": {
+        "title": "Baixe Meu Currículo",
+        "subtitle": "Veja um panorama detalhado das minhas habilidades, experiências e projetos em formato PDF."
+
+    },
+    "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Respostas rápidas para perguntas comuns",
+    "question01": {
+        "title": "Qual é o seu tempo médio de resposta?",
+        "subtitle": "Normalmente respondo em até 24 horas, muitas vezes bem mais rápido durante o horário comercial."
+    },
+    "question02": {
+        "title": "Que tipo de projetos você realiza?",
+        "subtitle": "Sou especializado em aplicações React, sites responsivos e desenvolvimento web moderno. Tenho um interesse especial em projetos que envolvem experiência do usuário e interfaces interativas."
+    },
+    "question03": {
+        "title": "Você trabalha com equipes ou clientes individuais?",
+        "subtitle": "Ambos! Gosto de colaborar com equipes de desenvolvimento e também trabalho diretamente com clientes individuais e startups."
+    },
+    "question04": {
+        "title": "Como está sua disponibilidade?",
+        "subtitle": "Atualmente estou disponível para novos projetos. Minha agenda varia, mas sempre comunico com clareza sobre prazos e disponibilidade."
     }
+}
+
+
+
 
 
 

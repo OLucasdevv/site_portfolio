@@ -8,7 +8,7 @@ import Button from '../../../components/ui/Button';
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage(); // <- agora pega language real tipo 'en' ou 'pt'
 
   const dynamicTexts = t('hero.roles') || [
     "Frontend Developer",
@@ -102,18 +102,22 @@ const HeroSection = () => {
                 >
                   {t('hero.viewWork')}
                 </Button>
-              </Link>
-              
+              </Link>          
               <Button 
                 variant="outline" 
                 iconName="Download" 
                 iconPosition="right"
                 onClick={() => {
-                  // Mock resume download
+                  const fileName = language === 'en'
+                    ? 'curriculo-(ingles).pdf'
+                    : 'curriculo-(pt).pdf';
+
                   const link = document.createElement('a');
-                  link.href = '/assets/images/resume/curriculo-(ingles).pdf';
-                  link.download = 'curriculo-(ingles).pdf';
+                  link.href = `/assets/images/resume/${fileName}`;
+                  link.download = fileName;
+                  document.body.appendChild(link);
                   link.click();
+                  document.body.removeChild(link);
                 }}
                 className="w-full sm:w-auto px-8 py-4 text-lg font-medium border-primary/30 hover:bg-primary/10 hover:border-primary"
               >

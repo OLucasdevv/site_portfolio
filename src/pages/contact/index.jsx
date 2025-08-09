@@ -112,91 +112,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </section>
-
-        {/* Additional Contact Methods */}
-        <section className="pb-20 px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
-            <div className={`bg-surface border border-border rounded-neo p-8 shadow-neo-ambient transition-all duration-page delay-400 ${
-              isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-            }`}>
-              <div className="text-center mb-8">
-                <h2 className="font-heading font-bold text-2xl text-text-primary mb-2">
-                  Other Ways to Connect
-                </h2>
-                <p className="font-body text-text-secondary">
-                  Choose the method that works best for you
-                </p>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {/* Quick Chat */}
-                <div className="text-center p-6 bg-background/50 rounded-neo border border-border hover:border-border-active transition-all duration-micro hover-lift">
-                  <div className="w-12 h-12 bg-primary/10 rounded-neo flex items-center justify-center mx-auto mb-4">
-                    <Icon name="MessageSquare" size={24} className="text-primary" />
-                  </div>
-                  <h3 className="font-heading font-semibold text-text-primary mb-2">
-                    Quick Chat
-                  </h3>
-                  <p className="font-caption text-sm text-text-secondary mb-4">
-                    Need a quick answer? Send me a direct message
-                  </p>
-                  <a
-                    href="https://twitter.com/lucas_codes"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors duration-micro font-body font-medium"
-                  >
-                    <Icon name="Twitter" size={16} />
-                    <span>@lucas_codes</span>
-                  </a>
-                </div>
-
-                {/* Schedule Call */}
-                <div className="text-center p-6 bg-background/50 rounded-neo border border-border hover:border-border-active transition-all duration-micro hover-lift">
-                  <div className="w-12 h-12 bg-secondary/10 rounded-neo flex items-center justify-center mx-auto mb-4">
-                    <Icon name="Calendar" size={24} className="text-secondary" />
-                  </div>
-                  <h3 className="font-heading font-semibold text-text-primary mb-2">
-                    Schedule Call
-                  </h3>
-                  <p className="font-caption text-sm text-text-secondary mb-4">
-                    Let's discuss your project in detail
-                  </p>
-                  <a
-                    href="mailto:lucas.dev@email.com?subject=Schedule a Call"
-                    className="inline-flex items-center space-x-2 text-secondary hover:text-secondary/80 transition-colors duration-micro font-body font-medium"
-                  >
-                    <Icon name="Phone" size={16} />
-                    <span>Book a Call</span>
-                  </a>
-                </div>
-
-                {/* Join Community */}
-                <div className="text-center p-6 bg-background/50 rounded-neo border border-border hover:border-border-active transition-all duration-micro hover-lift">
-                  <div className="w-12 h-12 bg-accent/10 rounded-neo flex items-center justify-center mx-auto mb-4">
-                    <Icon name="Users" size={24} className="text-accent" />
-                  </div>
-                  <h3 className="font-heading font-semibold text-text-primary mb-2">
-                    Join Community
-                  </h3>
-                  <p className="font-caption text-sm text-text-secondary mb-4">
-                    Connect with other developers and creators
-                  </p>
-                  <a
-                    href="https://discord.gg/lucas-dev"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center space-x-2 text-accent hover:text-accent/80 transition-colors duration-micro font-body font-medium"
-                  >
-                    <Icon name="MessageCircle" size={16} />
-                    <span>Join Discord</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        </section>  
 
         {/* FAQ Section */}
         <section className="pb-20 px-6 lg:px-12">
@@ -206,30 +122,31 @@ const Contact = () => {
             }`}>
               <div className="text-center mb-12">
                 <h2 className="font-heading font-bold text-3xl text-text-primary mb-4">
-                  Frequently Asked Questions
+                  {t("faq.title")}
                 </h2>
                 <p className="font-body text-text-secondary">
-                  Quick answers to common questions
+                  {t("faq.subtitle")}
                 </p>
               </div>
+              
 
               <div className="space-y-4">
                 {[
                   {
-                    question: "What's your typical response time?",
-                    answer: "I usually respond within 24 hours, often much faster during business hours."
+                    question: t("faq.question01.title"),
+                    answer: t("faq.question01.subtitle")
                   },
                   {
-                    question: "What types of projects do you work on?",
-                    answer: "I specialize in React applications, responsive websites, and modern web development. I'm particularly interested in projects involving user experience and interactive interfaces."
+                    question: t("faq.question02.title"),
+                    answer: t("faq.question02.subtitle")
                   },
                   {
-                    question: "Do you work with teams or solo clients?",
-                    answer: "Both! I enjoy collaborating with development teams and also work directly with individual clients and startups."
+                    question: t("faq.question03.title"),
+                    answer: t("faq.question03.subtitle")
                   },
                   {
-                    question: "What's your availability like?",
-                    answer: "I'm currently available for new projects. My schedule varies, but I always communicate clearly about timelines and availability."
+                    question: t("faq.question04.title"),
+                    answer: t("faq.question04.subtitle")
                   }
                 ].map((faq, index) => (
                   <div key={index} className="bg-surface border border-border rounded-neo p-6 shadow-neo-ambient">

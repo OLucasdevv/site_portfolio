@@ -6,36 +6,36 @@ import { useLanguage } from '../../../contexts/LanguageContext';
 const ContactInfo = () => {
   const [hoveredSocial, setHoveredSocial] = useState(null);
   const [resumeDownloading, setResumeDownloading] = useState(false);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();  // Pega o language aqui
 
   const contactDetails = [
     {
       icon: 'Mail',
       label: 'Email',
-      value: 'lucastiusam2@gmail.com',
-      href: 'mailto:lucas.dev@email.com',
-      description: 'Best way to reach me'
+      value: 'olucasdevv@gmail.com',
+      href: null,
+      description: t("available.reach")
     },
     {
       icon: 'Phone',
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
-      description: 'Available Mon-Fri, 9AM-6PM EST'
+      value: '+55 (61) 98295-4380',
+      href: null,
+      description: t("location.status")
     },
     {
       icon: 'MapPin',
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: t("location.title"),
       href: null,
-      description: 'Open to remote opportunities'
+      description: t("location.subtitle")
     },
     {
       icon: 'Clock',
       label: 'Response Time',
-      value: 'Within 24 hours',
+      value: t("location.responseTime"),
       href: null,
-      description: 'Usually much faster!'
+      description: t("location.responseTimesub")
     }
   ];
 
@@ -43,52 +43,44 @@ const ContactInfo = () => {
     {
       name: 'GitHub',
       icon: 'Github',
-      url: 'https://github.com/lucas-dev',
+      url: 'https://github.com/OLucasdevv',
       color: 'text-text-primary hover:text-primary',
-      description: 'View my code repositories'
+      description: t("connectWithMe.github")
     },
     {
       name: 'LinkedIn',
       icon: 'Linkedin',
-      url: 'https://linkedin.com/in/lucas-dev',
+      url: 'https://www.linkedin.com/in/lucas-eduardo-23b7a8350',
       color: 'text-text-primary hover:text-blue-400',
-      description: 'Professional network'
+      description: t("connectWithMe.linkedIn")
     },
-    {
-      name: 'Twitter',
-      icon: 'Twitter',
-      url: 'https://twitter.com/lucas_codes',
-      color: 'text-text-primary hover:text-blue-400',
-      description: 'Follow my coding journey'
-    },
-    {
-      name: 'Discord',
-      icon: 'MessageCircle',
-      url: 'https://discord.gg/lucas-dev',
-      color: 'text-text-primary hover:text-purple-400',
-      description: 'Join the community'
-    }
   ];
 
   const availabilityStatus = {
     status: 'available',
-    message: 'Available for new projects',
+    message: t("available.subtitle"),
     nextAvailable: null
   };
 
-  const handleResumeDownload = async () => {
+  const handleResumeDownload = () => {
     setResumeDownloading(true);
-    
-    // Simulate download process
+
     setTimeout(() => {
-      // Create a mock download link
+      const resumeUrl = language === 'pt' 
+        ? '/assets/images/resume/curriculo-(pt).pdf'
+        : '/assets/images/resume/curriculo-(ingles).pdf';
+
+      const resumeFileName = language === 'pt' 
+        ? 'curriculo-(pt).pdf'
+        : 'curriculo-(ingles).pdf';
+
       const link = document.createElement('a');
-      link.href = '/assets/resume/lucas-frontend-developer-resume.pdf';
-      link.download = 'Lucas_Frontend_Developer_Resume.pdf';
+      link.href = resumeUrl;
+      link.download = resumeFileName;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      
+
       setResumeDownloading(false);
     }, 1500);
   };
@@ -136,7 +128,7 @@ const ContactInfo = () => {
           </div>
           <div>
             <h3 className="font-heading font-bold text-lg text-text-primary">
-              Current Availability
+              {t("available.title")}
             </h3>
             <p className={`font-body text-sm ${getStatusColor(availabilityStatus.status)}`}>
               {availabilityStatus.message}
@@ -148,7 +140,7 @@ const ContactInfo = () => {
           <div className="flex items-center space-x-2 text-text-secondary text-sm font-caption">
             <Icon name="Calendar" size={16} />
             <span>
-              {availabilityStatus.status === 'available' ?'Ready to start immediately' 
+              {availabilityStatus.status === 'available' ? t("available.start") 
                 : `Next available: ${availabilityStatus.nextAvailable}`
               }
             </span>
@@ -159,7 +151,7 @@ const ContactInfo = () => {
       {/* Contact Details */}
       <div className="bg-surface border border-border rounded-neo p-6 shadow-neo-ambient">
         <h3 className="font-heading font-bold text-lg text-text-primary mb-6">
-          Get In Touch
+          {t("footer.getInTouch")}
         </h3>
         
         <div className="space-y-4">
@@ -206,7 +198,7 @@ const ContactInfo = () => {
       {/* Social Media Links */}
       <div className="bg-surface border border-border rounded-neo p-6 shadow-neo-ambient">
         <h3 className="font-heading font-bold text-lg text-text-primary mb-6">
-          Connect With Me
+          {t("connectWithMe.title1")} <span className="text-gradient bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">{t("connectWithMe.title2")}</span>?
         </h3>
         
         <div className="grid grid-cols-2 gap-4">
@@ -248,10 +240,10 @@ const ContactInfo = () => {
           
           <div>
             <h3 className="font-heading font-bold text-lg text-text-primary mb-2">
-              Download My Resume
+              {t("download.title")}
             </h3>
             <p className="font-body text-text-secondary">
-              Get a detailed overview of my skills, experience, and projects in PDF format.
+              {t("download.subtitle")}
             </p>
           </div>
           
@@ -291,3 +283,4 @@ const ContactInfo = () => {
 };
 
 export default ContactInfo;
+
