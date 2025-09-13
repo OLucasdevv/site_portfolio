@@ -176,7 +176,7 @@ const PersonalIntroduction = () => {
             iconName="Download"
             iconPosition="left"
             className="w-full sm:w-auto"
-            onClick={() => {
+            onClick={(handleResumeDownload) => {
                   // Mock resume download
                   const link = document.createElement('a');
                   link.href = '/assets/images/resume/curriculo-(ingles).pdf';

@@ -12,42 +12,7 @@ const FeaturedProjects = () => {
   const { t } = useLanguage();
 
   const featuredProjects = [
-    {
-      id: 1,
-      title: t("secureChat.title"),
-      description: t("secureChat.description"),
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "Socket.io", "Encryption"],
-      category: t("secureChat.category"),
-      githubUrl: "https://github.com/lucas-dev/secure-chat",
-      liveUrl: "https://secure-chat-demo.netlify.app",
-      featured: true,
-      status: t("secureChat.status")
-    },
-    {
-      id: 2,
-      title: "Vulnerability Scanner",
-      description: "Automated web application security scanner that identifies common vulnerabilities and provides detailed reports with remediation suggestions.",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
-      technologies: ["Python", "Flask", "SQLite", "Security"],
-      category: "Cybersecurity",
-      githubUrl: "https://github.com/lucas-dev/vuln-scanner",
-      liveUrl: "https://vuln-scanner-demo.herokuapp.com",
-      featured: true,
-      status: "In Progress"
-    },
-    {
-      id: 3,
-      title: "Portfolio Dashboard",
-      description: "Modern, responsive portfolio website with dark theme, smooth animations, and dynamic content management system.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["React", "Tailwind", "Framer Motion", "Vite"],
-      category: "Frontend",
-      githubUrl: "https://github.com/lucas-dev/portfolio-hub",
-      liveUrl: "https://lucas-portfolio-hub.netlify.app",
-      featured: true,
-      status: "Completed"
-    }
+    
   ];
 
   useEffect(() => {

@@ -9,13 +9,13 @@
         "greeting": "Ol\u00e1, meu nome é",
         "name": "Lucas",
         "roles": [
-            "Desenvolvedor Web",
+            "Desenvolvedor FrontEnd",
             "Estudante de Programa\u00e7\u00e3o",
             "Entusiasta de Ciberseguran\u00e7a",
             "Solucionador de Problemas"
         ],
         "motto": "Não é porque as coisas são difíceis que não ousamos, é porque não ousamos que elas são difíceis. - Sêneca",
-        "description": "Estudante de programa\u00e7\u00e3o apaixonado com profundo interesse em ciberseguran\u00e7a e desenvolvimento web moderno. Atualmente construindo projetos inovadores enquanto exploro a interse\u00e7\u00e3o entre seguran\u00e7a e experi\u00eancia do usu\u00e1rio.",
+        "description": "Estudante de programa\u00e7\u00e3o apaixonado com profundo interesse em ciberseguran\u00e7a e desenvolvimento web moderno. Atualmente estudando e desenvolvendo habilidades que unem tecnologia e experiência do usuário para criar soluções de alto impacto.",
         "viewWork": "Ver Meu Trabalho",
         "downloadResume": "Baixar Curr\u00edculo",
         "exploreMore": "Explorar Mais"
@@ -28,7 +28,7 @@
     },
     "projects": {
         "title": "Projetos em Destaque",
-        "subtitle": "Explore meus trabalhos mais recentes com foco em desenvolvimento web moderno, soluções de cibersegurança e abordagens criativas para resolver problemas.",
+        "subtitle": "Ainda estou construindo meus primeiros projetos, mas essa seção vai ser o espaço para mostrar minhas ideias ganhando forma em código. Em breve, você vai poder acompanhar minha evolução de perto.",
         "viewAll": "Ver Todos os Projetos"
     },
     "statuses": {
@@ -465,7 +465,14 @@
         "title": "Como está sua disponibilidade?",
         "subtitle": "Atualmente estou disponível para novos projetos. Minha agenda varia, mas sempre comunico com clareza sobre prazos e disponibilidade."
     }
-}
+ },
+ "projectsFound": {
+        "title": "Ainda Não há Projetos!",
+        "subtitle": "Estou desenvolvendo novos projetos em breve, fique ligado!",
+        "reset": {
+            "title": "Resetar filtros"
+        }
+    }
 
 
 

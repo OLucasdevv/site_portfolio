@@ -4,11 +4,14 @@ import { useLanguage } from '../../../contexts/LanguageContext';
 import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
+import { motion, AnimatePresence } from "framer-motion";
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const { t, language } = useLanguage(); // <- agora pega language real tipo 'en' ou 'pt'
+  const [displayText, setDisplayText] = useState('');
+  const [charIndex, setCharIndex] = useState(0);
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
   const dynamicTexts = t('hero.roles') || [
     "Frontend Developer",
@@ -73,7 +76,20 @@ const HeroSection = () => {
               <div className="relative overflow-hidden">
                 <h2 className="font-body text-2xl lg:text-3xl text-text-secondary font-medium">
                   <span className="inline-block transition-all duration-500 transform">
-                    {dynamicTexts[currentTextIndex]}
+                    <div className="h-16 flex items-center justify-center lg:justify-start">
+  <AnimatePresence mode="wait">
+    <motion.h2
+      key={dynamicTexts[currentTextIndex]} // importante pro AnimatePresence saber quando trocar
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.6 }}
+      className="font-body text-2xl lg:text-3xl text-text-secondary font-medium"
+    >
+      {dynamicTexts[currentTextIndex]}
+    </motion.h2>
+  </AnimatePresence>
+</div>
                   </span>
                 </h2>
               </div>

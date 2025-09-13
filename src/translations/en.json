@@ -9,13 +9,13 @@
         "greeting": "Hello, I'm",
         "name": "Lucas",
         "roles": [
-            "Web Developer",
+            "FrontEnd Developer",
             "Programming Student",
             "Cybersecurity Enthusiast",
             "Problem Solver"
         ],
         "motto": "It is not because things are difficult that we do not dare, it is because we do not dare that they are difficult. - Seneca",
-        "description": "Passionate programming student with a deep interest in cybersecurity and modern web development. Currently building innovative projects while exploring the intersection of security and user experience.",
+        "description": "Passionate programming student with a deep interest in cybersecurity and modern web development. Currently studying and building skills that combine technology and user experience to create high-impact solutions.",
         "viewWork": "View My Work",
         "downloadResume": "Download Resume",
         "exploreMore": "Explore More"
@@ -28,7 +28,7 @@
     },
     "projects": {
         "title": "Featured Projects",
-        "subtitle": "Explore my latest work showcasing modern web development, cybersecurity solutions, and innovative problem-solving approaches.",
+        "subtitle": "My first projects are still in progress, but this section will highlight them as they come to life. Exciting things ahead.",
         "viewAll": "View All Projects"
 },
     "language": {
@@ -459,10 +459,18 @@
         "question04": {
             "title": "What's your availability like?",
             "subtitle": "I'm currently available for new projects. My schedule varies, but I always communicate clearly about timelines and availability."
-            
+                
         }
         
+    },
+    "projectsFound": {
+        "title": "No Projects Yet!",
+        "subtitle": "I’m currently working on new projects, stay tuned!",
+        "reset": {
+            "title": "Reset Filters"
+        }
     }
-    }
+
+}
     
   

@@ -19,8 +19,8 @@ const ContactPreview = () => {
     {
       icon: "Mail",
       title: "Email",
-      description: "lucastiusammm@gmail.com",
-      action: "mailto:lucastiusammm@gmail.com",
+      description: "olucasdevv@gmail.com",
+      action: "mailto:olucasdevv@gmail.com",
       color: "primary"
     },
     {
